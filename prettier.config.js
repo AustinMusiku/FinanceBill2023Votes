@@ -1,2 +1,4 @@
-export const plugins = [require("prettier-plugin-tailwindcss")];
-export const useTabs = true;
+module.exports = {
+    plugins: [require("prettier-plugin-tailwindcss")],
+    useTabs: true,
+};
