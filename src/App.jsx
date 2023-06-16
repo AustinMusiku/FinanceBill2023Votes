@@ -15,7 +15,7 @@ const App = () => {
 	const [county, setCounty] = useState("");
 
 	// checkboxes
-	const [present, setPresent] = useState(null);
+	const [attendance, setAttendance] = useState("");
 	const [vote, setVote] = useState(null);
 
 	const [filteredMps, setFilteredMps] = useState([]);
@@ -24,7 +24,7 @@ const App = () => {
 
 	useEffect(() => {
 		setFilteredMps(filterMps(mps));
-	}, [name, party, county, constituency, present, vote]);
+	}, [name, party, county, constituency, attendance, vote]);
 
 	function filterMps(mps) {
 		if (
@@ -32,7 +32,7 @@ const App = () => {
 			party === "" &&
 			county === "" &&
 			constituency === "" &&
-			present === null &&
+			attendance === null &&
 			vote === null
 		)
 			return mps;
@@ -55,6 +55,10 @@ const App = () => {
 			mps = mps.filter((item) => item[3] === constituency);
 		}
 
+		if (attendance !== "") {
+			mps = mps.filter((item) => item[5] === attendance);
+		}
+
 		return mps;
 	}
 
@@ -63,8 +67,9 @@ const App = () => {
 		setParty("");
 		setCounty("");
 		setConstituency("");
-		setPresent(null);
+		setAttendance(null);
 		setVote(null);
+		setAttendance("");
 		setFilteredMps(mps);
 	}
 
@@ -92,7 +97,7 @@ const App = () => {
 					</div>
 
 					{/* party */}
-					<div className="col-start-5 col-end-6">
+					<div className="col-start-4 col-end-5">
 						<FormDropdown
 							label="party"
 							options={mps.map((item) => item[4])}
@@ -102,7 +107,7 @@ const App = () => {
 					</div>
 
 					{/* county */}
-					<div className="col-start-6 col-end-7">
+					<div className="col-start-5 col-end-6">
 						<FormDropdown
 							label="county"
 							options={mps.map((item) => item[2])}
@@ -112,12 +117,22 @@ const App = () => {
 					</div>
 
 					{/* constituency */}
-					<div className="col-start-7 col-end-8">
+					<div className="col-start-6 col-end-7">
 						<FormDropdown
 							label="constituency"
 							options={mps.map((item) => item[3])}
 							value={constituency}
 							onChange={(e) => setConstituency(e.target.value)}
+						></FormDropdown>
+					</div>
+
+					{/* attendance */}
+					<div className="col-start-7 col-end-8">
+						<FormDropdown
+							label="attendance"
+							options={mps.map((item) => item[5])}
+							value={attendance}
+							onChange={(e) => setAttendance(e.target.value)}
 						></FormDropdown>
 					</div>
 				</form>

@@ -1,8 +1,8 @@
 const FormDropdown = ({ label, options, value, onChange }) => {
 	return (
 		<div className="input-container flex flex-col items-start gap-[0.125rem]">
-			<label className="text-white" htmlFor="player">
-				{label}
+			<label className="text-sm text-white" htmlFor="player">
+				Filter by {label}
 			</label>
 			<select
 				id="name"
@@ -12,7 +12,12 @@ const FormDropdown = ({ label, options, value, onChange }) => {
 			>
 				<option value="">All</option>
 				{options
-					.filter((value, index, self) => self.indexOf(value) === index && value !== ""  && value !== "More...")
+					.filter(
+						(value, index, self) =>
+							self.indexOf(value) === index &&
+							value !== "" &&
+							value !== "More..."
+					)
 					.sort()
 					.map((item, index) => {
 						return (
@@ -20,12 +25,10 @@ const FormDropdown = ({ label, options, value, onChange }) => {
 								{item}
 							</option>
 						);
-					})
-					
-				}
+					})}
 			</select>
 		</div>
 	);
 };
 
-export default FormDropdown
+export default FormDropdown;
