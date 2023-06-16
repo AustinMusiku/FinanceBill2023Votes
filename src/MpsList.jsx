@@ -9,6 +9,7 @@ const MpsList = ({ mps }) => {
 		return (
 			<Mp
 				key={idx}
+				position={idx + 1}
 				name={mp.name}
 				image={mp.image}
 				county={mp.county}

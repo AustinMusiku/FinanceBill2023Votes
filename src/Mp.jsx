@@ -1,6 +1,7 @@
-const Mp = ({name, image, county, constituency, party, attendance, vote}) => {
+const Mp = ({position, name, image, county, constituency, party, attendance, vote}) => {
 	return (
 		<li className="player w-full border-b-[1px] border-slate-200 text-underline flex flex-row items-center py-4">
+				<p className="basis-2/9 text-[0.75rem] mr-2">{position}.</p>
 				<p className="justify-betwen flex basis-4/5 flex-col items-start gap-1">
 					<span className="text-sm">{name}</span>
 					{/* <span className="text-sm">{props.firstName}</span>
@@ -11,7 +12,7 @@ const Mp = ({name, image, county, constituency, party, attendance, vote}) => {
 				<p className="basis-1/5 text-sm text-center">{county}</p>
 				<p className="basis-1/5 text-sm text-center">{party}</p>
 				<p className="basis-1/5 text-sm text-center">{attendance ?? true}</p>
-				<p className="basis-1/5 text-sm text-center">{vote === 1 ? "Yes" : vote === 0 ? "No" : ""}</p>
+				<p className="basis-1/5 text-sm text-center">{vote === 1 ? "Yes" : vote === 0 ? "No" : "-"}</p>
 		</li>
 	);
 };
