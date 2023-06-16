@@ -30,7 +30,7 @@ const mpArray = [
     [
         "HON. (DR.) PUKOSE ROBERT",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20Pukose.jpg",
-        "TRANS NZOIA",
+        "TRANS-NZOIA",
         "ENDEBESS",
         "UDA"
     ],
@@ -144,7 +144,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20shabbir.jpg",
         "KISUMU",
         "KISUMU EAST",
-        "IND."
+        "INDEPENDENT"
     ],
     [
         "HON. AKUJAH, PROTUS EWESIT",
@@ -212,7 +212,7 @@ const mpArray = [
     [
         "HON. BARASA PATRICK SIMIYU",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20barasa.jpg",
-        "TRANS NZOIA",
+        "TRANS-NZOIA",
         "CHERANGANY",
         "DAP-K"
     ],
@@ -296,7 +296,7 @@ const mpArray = [
     [
         "HON. BOWEN DAVID KANGOGO",
         "http://www.parliament.go.ke/sites/default/files/2022-09/Bowen%20Kangogo%20David.jpg",
-        "ELGEYO - MARAKWET",
+        "ELGEYO-MARAKWET",
         "MARAKWET EAST",
         "UDA"
     ],
@@ -403,7 +403,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-09/Chikati%20John%20Murumba.jpg",
         "BUNGOMA",
         "TONGAREN",
-        "FORD - K"
+        "FORD-K"
     ],
     [
         "HON. CHUMEL, MOROTO SAMUEL",
@@ -424,7 +424,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-09/Dawood%20Rahim%20Abdul.jpg",
         "MERU",
         "NORTH IMENTI",
-        "IND"
+        "INDEPENDENT"
     ],
     [
         "HON. DENA JOSEPH HAMISI",
@@ -479,13 +479,13 @@ const mpArray = [
         "HON. GAKUYA JAMES MWANGI",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20gakuya.jpg",
         "NAIROBI",
-        "EMBAKASSI NORTH",
+        "EMBAKASI NORTH",
         "UDA"
     ],
     [
         "HON. GIDEON KIMAIYO",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20keiyo.jpg",
-        "ELGEYO - MARAKWET",
+        "ELGEYO-MARAKWET",
         "KEIYO SOUTH",
         "UDA"
     ],
@@ -753,7 +753,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20kasa.jpg",
         "NAIROBI",
         "KASARANI",
-        "IND"
+        "INDEPENDENT"
     ],
     [
         "HON. KAREMBA, ERIC MUCHANGI.N.",
@@ -1003,7 +1003,7 @@ const mpArray = [
     [
         "HON. KORIR ADAMS KIPSANAI",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20adams.jpg",
-        "ELGEYO - MARAKWET",
+        "ELGEYO-MARAKWET",
         "KEIYO NORTH",
         "UDA"
     ],
@@ -1040,7 +1040,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-10/Kururia%20Elijah%20Njore%20Njoroge.jpg",
         "KIAMBU",
         "GATUNDU NORTH",
-        "IND"
+        "INDEPENDENT"
     ],
     [
         "HON. LEKUTON JOSEPH",
@@ -1101,7 +1101,7 @@ const mpArray = [
     [
         "HON. LOMWA JOSEPH SAMAL",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20samal.jpg",
-        "ISIOLO NORTH",
+        "ISIOLO",
         "ISIOLO NORTH",
         "JP"
     ],
@@ -1187,7 +1187,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-10/Marubu%20Muthoni%20Monicah.jpg",
         "LAMU",
         "LAMU",
-        "IND"
+        "INDEPENDENT"
     ],
     [
         "HON. MASARA PETER FRANCIS",
@@ -1313,7 +1313,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-10/Mohamed%20Fatuma%20Zainab.jpg",
         "MIGORI",
         "MIGORI",
-        "IND"
+        "INDEPENDENT"
     ],
     [
         "HON. MOHAMMED ZAMZAM CHIMBA",
@@ -1390,7 +1390,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20nambale.jpg",
         "BUSIA",
         "NAMBALE",
-        "IND."
+        "INDEPENDENT"
     ],
     [
         "HON. MULE CALEB MUTISO",
@@ -1467,7 +1467,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-10/Muriuki%20Bernard%20Nebart.jpg",
         "EMBU",
         "MBEERE SOUTH",
-        "IND"
+        "INDEPENDENT"
     ],
     [
         "HON. MURUGARA GEORGE GITONGA",
@@ -1551,7 +1551,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-09/Mwalyo%20Joshua%20Mbithi.jpg",
         "MACHAKOS",
         "MASINGA",
-        "IND"
+        "INDEPENDENT"
     ],
     [
         "HON. MWANGI GEOFFREY WANDETO",
@@ -1633,8 +1633,8 @@ const mpArray = [
     [
         "HON. NDUYO SUSAN NGUGI",
         "http://www.parliament.go.ke/sites/default/files/2022-10/cropped%20tharaka%23.jpg",
-        "THARAKA NITHI",
-        "THARAKA NITHI",
+        "THARAKA-NITHI",
+        "THARAKA-NITHI",
         "TSP"
     ],
     [
@@ -1675,9 +1675,9 @@ const mpArray = [
     [
         "HON. NG'ELECHEI CAROLINE JEPTOO",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20caroline.jpg",
-        "ELGEYO MARAKWET",
-        "ELGEYO MARAKWET",
-        "IND."
+        "ELGEYO-MARAKWET",
+        "ELGEYO-MARAKWET",
+        "INDEPENDENT"
     ],
     [
         "HON. NG'ONGO JOHN MBADI",
@@ -1705,12 +1705,12 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20ntutu.jpg",
         "NAROK",
         "NAROK SOUTH",
-        "IND"
+        "INDEPENDENT"
     ],
     [
         "HON. NTWIGA PATRICK MUNENE",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20chuka.jpg",
-        "THARAKA - NITHI",
+        "THARAKA-NITHI",
         "CHUKA IGAMBANG'OMBE",
         "UDA"
     ],
@@ -2158,8 +2158,8 @@ const mpArray = [
     [
         "HON. SIYOI LILLIAN CHEBET",
         "http://www.parliament.go.ke/sites/default/files/2022-10/cropped%20siyoi.jpg",
-        "TRANS NZOIA",
-        "TRANS NZOIA",
+        "TRANS-NZOIA",
+        "TRANS-NZOIA",
         "UDA"
     ],
     [
@@ -2242,9 +2242,9 @@ const mpArray = [
     [
         "HON. TOROITICH TIMOTHY KIPCHUMBA",
         "http://www.parliament.go.ke/sites/default/files/2022-10/Toroitich%20Timothy%20Kipchumba.jpg",
-        "ELGEYO MARAKWET",
+        "ELGEYO-MARAKWET",
         "MARAKWET WEST",
-        "IND"
+        "INDEPENDENT"
     ],
     [
         "HON. TUNGULE CHARO KENNETH KAZUNGU",
@@ -2293,7 +2293,7 @@ const mpArray = [
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20catherine.jpg",
         "BUNGOMA",
         "BUNGOMA",
-        "FORD - K"
+        "FORD-K"
     ],
     [
         "HON. WAMBOKA WANAMI JACK NELSON",
@@ -2354,9 +2354,9 @@ const mpArray = [
     [
         "HON. WANYONYI KEVIN FERDINAND",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20kevin.jpg",
-        "TRANS NZOIA",
+        "TRANS-NZOIA",
         "KWANZA",
-        "FORD - K"
+        "FORD-K"
     ],
     [
         "HON. WANYONYI MARTIN PEPELA",
@@ -2431,7 +2431,7 @@ const mpArray = [
     [
         "HON.MBIUKI JAPHET MIRITI KAREKE",
         "http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20maara.jpg",
-        "THARAKA NITHI",
+        "THARAKA-NITHI",
         "MAARA",
         "UDA"
     ],
