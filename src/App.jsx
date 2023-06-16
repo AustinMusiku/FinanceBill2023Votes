@@ -59,50 +59,20 @@ const App = () => {
                     {/* mp name */}
 					<div className="input-container col-start-1 col-end-3 flex flex-col items-start gap-[0.125rem]">
 						<label className="text-white" htmlFor="player">
-							mp name
+							Search by mp's name
 						</label>
 						<input
 							id="name"
 							type="text"
-							className="block w-full p-2"
+							className="block w-full p-2 text-sm"
 							value={name}
 							placeholder="e.g., Babu Owino"
 							onChange={(e) => setName(e.target.value)}
 						/>
 					</div>
 
-                    {/* county */}
+					{/* party */}
 					<div className="input-container col-start-5 col-end-6 flex flex-col items-start gap-[0.125rem]">
-						<label className="text-sm text-white" htmlFor="position">
-							Filter by county
-						</label>
-						<select
-							id="county"
-							className="block w-full border-none bg-[#141f39] p-2 text-sm text-[#f2f2f2]"
-							value={county}
-							onChange={(e) => setCounty(e.target.value)}
-						>
-							<option value={county}>
-                                All
-                            </option>
-                                {mps
-                                    .map((item) => item[2])
-                                    .filter((value, index, self) => self.indexOf(value) === index)
-                                    .sort((x, y) => x - y)
-                                    .map((item, index) => {
-                                        return (
-                                            <option value={item} key={index}>
-                                                {item}
-                                            </option>
-                                        );
-                                    })
-                                    
-                                }
-						</select>
-					</div>
-                    
-                    {/* party */}
-					<div className="input-container col-start-6 col-end-7 flex flex-col items-start gap-[0.125rem]">
 						<label className="text-sm text-white" htmlFor="position">
 							Filter by party
 						</label>
@@ -112,22 +82,51 @@ const App = () => {
 							value={party}
 							onChange={(e) => setParty(e.target.value)}
 						>
-							<option value={party}>
-                                All
-                            </option>
-                                {mps
-                                    .map((item) => item[4])
-                                    .filter((value, index, self) => self.indexOf(value) === index)
-                                    .sort((x, y) => x - y)
-                                    .map((item, index) => {
-                                        return (
-                                            <option value={item} key={index}>
-                                                {item}
-                                            </option>
-                                        );
-                                    })
-                                    
-                                }
+							<option value="">All</option>
+							{mps
+								.map((item) => item[4])
+								.filter((value, index, self) => self.indexOf(value) === index && value !== ""  && value !== "More...")
+								.sort()
+								.map((item, index) => {
+									return (
+										<option value={item} key={index}>
+											{item}
+										</option>
+									);
+								})
+								
+							}
+						</select>
+					</div>
+
+                    {/* county */}
+					<div className="input-container col-start-6 col-end-7 flex flex-col items-start gap-[0.125rem]">
+						<label className="text-sm text-white" htmlFor="position">
+							Filter by county
+						</label>
+						<select
+							id="county"
+							className="block w-full border-none bg-[#141f39] p-2 text-sm text-[#f2f2f2]"
+							value={county}
+							onChange={(e) => setCounty(e.target.value)}
+						>
+							<option value="">All</option>
+							{mps
+								.map((item) => item[2])
+								.filter((value, index, self) => {
+									return value !== "" && self.indexOf(value) === index  
+								})
+								.sort()
+								.map((item, index) => {
+									console.log('pre-filtered', item)
+									return (
+										<option value={item} key={index}>
+											{item}
+										</option>
+									);
+								})
+								
+							}
 						</select>
 					</div>
                     
@@ -142,12 +141,11 @@ const App = () => {
 							value={constituency}
 							onChange={(e) => setConstituency(e.target.value)}
 						>
-							<option value={constituency}>
-                                All
-                            </option>
+							<option value="">All</option>
                                 {mps
                                     .map((item) => item[3])
-                                    .filter((value, index, self) => self.indexOf(value) === index)
+                                    .filter((value, index, self) => self.indexOf(value) === index && value !== "")
+									.sort()
                                     .map((item, index) => {
                                         return (
                                             <option value={item} key={index}>
