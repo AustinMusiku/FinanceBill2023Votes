@@ -69,7 +69,7 @@ const mpArray = [
         "VOI",
         "WDM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. ABDI, YUSUF HASSAN",
@@ -131,8 +131,8 @@ const mpArray = [
         "MIGORI",
         "RONGO",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. ABURI DONYA DORICE",
@@ -222,7 +222,7 @@ const mpArray = [
         "RARIEDA",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. ARAMA SAMUEL",
@@ -239,8 +239,8 @@ const mpArray = [
         "TURKANA",
         "TURKANA SOUTH",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. ATANDI SAMUEL ONUNGA",
@@ -258,7 +258,7 @@ const mpArray = [
         "EMBAKASI EAST",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. BADY BADY TWALIB",
@@ -537,7 +537,7 @@ const mpArray = [
         "KESSES",
         "UDA",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. DAWOOD, ABDUL RAHIM",
@@ -563,8 +563,8 @@ const mpArray = [
         "TURKANA",
         "TURKANA NORTH",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. ELACHI BEATRICE KADEVERESIA",
@@ -663,7 +663,7 @@ const mpArray = [
         "KIRINYAGA CENTRAL",
         "UDA",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. GITAU FAITH WAIRIMU",
@@ -707,8 +707,8 @@ const mpArray = [
         "KAJIADO",
         "KAJIADO EAST",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. HARO ABDUL EBRAHIM",
@@ -726,7 +726,7 @@ const mpArray = [
         "BANISSA",
         "UDM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. HIRIBAE SAID BUYA",
@@ -735,7 +735,7 @@ const mpArray = [
         "GALOLE",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. ICHUNG'WAH ANTONY KIMANI",
@@ -896,8 +896,8 @@ const mpArray = [
         "",
         "",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. KALUMA GEORGE PETER OPONDO",
@@ -996,7 +996,7 @@ const mpArray = [
         "KITUI",
         "WDM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. KASIWAI RAEL KASIWAI",
@@ -1067,8 +1067,8 @@ const mpArray = [
         "NAIROBI",
         "LANGATA",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. KIAMBA SUZANNE NDUNGE",
@@ -1140,7 +1140,7 @@ const mpArray = [
         "MAVOKO",
         "WDM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. KINGARA,  SIMON NGANGA",
@@ -1517,8 +1517,8 @@ const mpArray = [
         "KISII",
         "NYARIBARI MASABA",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. MARUBU MUTHONI MONICAH",
@@ -1571,8 +1571,8 @@ const mpArray = [
         "",
         "",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. MBAI, NIMROD MBITHUKA",
@@ -1770,7 +1770,7 @@ const mpArray = [
         "LURAMBI",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. MUKUNJI JOHN GITONGA MWANIKI",
@@ -1806,7 +1806,7 @@ const mpArray = [
         "MATUNGULU",
         "WDM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. MULI FABIAN KYULE",
@@ -1878,7 +1878,7 @@ const mpArray = [
         "GATANGA",
         "UDA",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. MURIUKI NEBART BERNARD",
@@ -1896,7 +1896,7 @@ const mpArray = [
         "THARAKA",
         "UDA",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. MUSAU, VINCENT MUSYOKA",
@@ -1986,7 +1986,7 @@ const mpArray = [
         "BUTERE",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. MWALYO, JOSHUA MBITHI",
@@ -2058,7 +2058,7 @@ const mpArray = [
         "MATUNGU",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. NAICCA JOHNSON MANYA",
@@ -2066,8 +2066,8 @@ const mpArray = [
         "KAKAMEGA",
         "MUMIAS WEST",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. NAMUAR JOSEPH EMATHE",
@@ -2165,8 +2165,8 @@ const mpArray = [
         "",
         "",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. NJERU PAMELA NJOKI",
@@ -2175,7 +2175,7 @@ const mpArray = [
         "EMBU",
         "UDA",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. NJOROGE MARY WAMAUA WAITHIRA",
@@ -2228,8 +2228,8 @@ const mpArray = [
         "MIGORI",
         "URIRI",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. NYAMOKO, JOASH NYAMACHE",
@@ -2291,8 +2291,8 @@ const mpArray = [
         "HOMA BAY",
         "KABONDO KASIPUL",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. OBIRI, INNOCENT MOMANYI",
@@ -2301,7 +2301,7 @@ const mpArray = [
         "BOBASI",
         "WDM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. OBO RUWEIDA MOHAMED",
@@ -2400,7 +2400,7 @@ const mpArray = [
         "BUSIA",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. OMBAKA ODUOR CHRISTINE",
@@ -2508,7 +2508,7 @@ const mpArray = [
         "FUNYULA",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. OWINO JOHN WALTER",
@@ -2517,7 +2517,7 @@ const mpArray = [
         "AWENDO",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. OWINO, MARTIN PETERS",
@@ -2562,7 +2562,7 @@ const mpArray = [
         "BUTULA",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. PARASHINA SAMUEL SAKIMBA",
@@ -2570,8 +2570,8 @@ const mpArray = [
         "KAJIADO",
         "KAJIADO SOUTH",
         "ODM",
-        "PRESENT",
-        1
+        "ABSENT",
+        null
     ],
     [
         "HON. PAREYIO MANTAINE AGNES",
@@ -2652,7 +2652,7 @@ const mpArray = [
         "MUMIAS EAST",
         "DAP-K",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. SALIM FEISAL ABDALLAH BADER",
@@ -2796,7 +2796,7 @@ const mpArray = [
         "KAPSERET",
         "UDA",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. SULEKA HULBALE HARUN",
@@ -2985,7 +2985,7 @@ const mpArray = [
         "KHWISERO",
         "ODM",
         "ABSENT",
-        1
+        null
     ],
     [
         "HON. WANGWE, EMMANUEL",
@@ -3130,15 +3130,6 @@ const mpArray = [
         "UDA",
         "PRESENT",
         1
-    ],
-    [
-        "VACANT",
-        "",
-        "MURANGA",
-        "KANDARA",
-        "",
-        "",
-        null
     ],
     [
         "VACANT",
