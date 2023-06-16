@@ -50,6 +50,16 @@ const App = () => {
 		return mps;
 	}
 
+	function resetFilters() {
+		setName("");
+		setParty("");
+		setCounty("");
+		setConstituency("");
+		setPresent(null);
+		setVote(null);
+		setFilteredMps(mps); 
+	}
+
 	return (
 		<div className="search-params">
 			<div className="mb-8 bg-slate-900 px-8 pb-8 pt-8">
@@ -163,7 +173,15 @@ const App = () => {
 			</div>
 
 			{filteredMps.length === 0 ? (
-				<h1 className="text-3xl text-center">No members of parliament found</h1>
+				<div className="flex flex-col items-center justify-center gap-4">
+					<h1 className="text-3xl text-center">Oops, no mps found!</h1>
+					<button 
+						onClick={resetFilters}
+						className="underline text-blue-500 hover:text-blue-700"
+					>
+							Reset Filters
+					</button>
+				</div>
 			) : (
 				<Mps mps={filteredMps} />
 			)}
