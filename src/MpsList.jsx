@@ -31,7 +31,7 @@ const MpsList = ({ mps }) => {
 	});
 
 	return (
-		<ul className="flex flex-col px-4 md:px-12">
+		<ul className="flex flex-col">
 			<li
 				key="header"
 				className="player w-full border-b-[1px] border-slate-200 py-4"

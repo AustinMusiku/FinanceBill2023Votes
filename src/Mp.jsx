@@ -11,10 +11,10 @@ const Mp = ({
 	return (
 		<li className="text-underline flex w-full flex-row items-center gap-2 border-b-[1px] border-slate-200 py-4">
 			<p className="flex grow basis-1/2 flex-row items-center pr-1 text-sm md:grow-0 md:basis-[35%] md:pr-0">
-				<p className="mr-2 hidden h-full text-[0.75rem] md:inline-block">
+				<span className="mr-2 hidden h-full text-[0.75rem] md:inline-block">
 					{position}.
-				</p>
-				<p>{name}</p>
+				</span>
+				<span>{name}</span>
 			</p>
 
 			<div className="flex basis-1/2 flex-row justify-between md:basis-[65%]">
