@@ -6,7 +6,7 @@ const FormDropdown = ({ label, options, value, onChange }) => {
 			</label>
 			<select
 				id="name"
-				className="block w-full border-none bg-[#141f39] p-2 text-sm text-[#f2f2f2]"
+				className="block w-full border-none bg-[#141f39] py-2 pl-3 pr-2 text-sm text-[#f2f2f2]"
 				value={value}
 				onChange={onChange}
 			>
