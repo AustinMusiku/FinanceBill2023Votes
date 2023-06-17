@@ -1,18 +1,41 @@
-const Mp = ({position, name, image, county, constituency, party, attendance, vote}) => {
+const Mp = ({
+	position,
+	name,
+	image,
+	county,
+	constituency,
+	party,
+	attendance,
+	vote,
+}) => {
 	return (
-		<li className="player w-full border-b-[1px] border-slate-200 text-underline flex flex-row items-center py-4">
-				<p className="basis-2/9 text-[0.75rem] mr-2">{position}.</p>
-				<p className="justify-betwen flex basis-4/5 flex-col items-start gap-1">
-					<span className="text-sm">{name}</span>
-					{/* <span className="text-sm">{props.firstName}</span>
-					<span className="text-xl">{props.secondName}</span> */}
+		<li className="text-underline flex w-full flex-row items-center gap-2 border-b-[1px] border-slate-200 py-4">
+			<p className="flex grow basis-1/2 flex-row items-center pr-1 text-sm md:grow-0 md:basis-[35%] md:pr-0">
+				<p className="mr-2 hidden h-full text-[0.75rem] md:inline-block">
+					{position}.
 				</p>
-				<p className="basis-1/3 text-sm">{constituency}</p>
+				<p>{name}</p>
+			</p>
 
-				<p className="basis-1/5 text-sm text-center">{county}</p>
-				<p className="basis-1/5 text-sm text-center">{party}</p>
-				<p className="basis-1/5 text-sm text-center">{attendance ?? true}</p>
-				<p className="basis-1/5 text-sm text-center">{vote === 1 ? "Yes" : vote === 0 ? "No" : "-"}</p>
+			<div className="flex basis-1/2 flex-row justify-between md:basis-[65%]">
+				<p className="hidden basis-1/4 text-center text-sm md:inline-block">
+					{constituency === "" ? "-" : constituency}
+				</p>
+
+				<p className="hidden basis-1/4  text-center text-sm md:inline-block">
+					{county === "" ? "-" : county}
+				</p>
+
+				<p className="basis-1/12 text-center text-sm">
+					{party === "" ? "-" : party}
+				</p>
+
+				<p className="basis-1/4 text-center text-sm">{attendance}</p>
+
+				<p className="text-righ basis-1/12 text-center text-sm">
+					{vote === 1 ? "YES" : vote === 0 ? "NO" : "-"}
+				</p>
+			</div>
 		</li>
 	);
 };
