@@ -1,12 +1,12 @@
 const FormDropdown = ({ label, options, value, onChange }) => {
 	return (
-		<div className="input-container flex flex-col items-start gap-[0.125rem]">
-			<label className="text-sm text-white" htmlFor="player">
+		<div className="input-container flex flex-col items-start gap-1">
+			<label className="ml-1 text-sm text-white" htmlFor="player">
 				Filter by {label}
 			</label>
 			<select
 				id="name"
-				className="block w-full border-none bg-[#141f39] py-2 pl-3 pr-2 text-sm text-[#f2f2f2]"
+				className="block w-full rounded-lg border-none bg-[#141f39] py-2 pl-3 pr-2 text-sm text-[#f2f2f2]"
 				value={value}
 				onChange={onChange}
 			>

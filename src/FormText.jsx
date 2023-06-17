@@ -1,6 +1,6 @@
 const FormText = ({ value, onChange }) => {
 	return (
-		<div className="box-border flex w-full items-center justify-between rounded-sm border-[1px] border-[#141f39] bg-[#141f39] py-2 text-sm">
+		<div className="box-border flex w-full items-center justify-between rounded-lg border-[1px] border-[#141f39] bg-[#141f39] py-2 text-sm">
 			<div className="height-full ml-1 mr-1.5 flex max-h-full items-center px-2">
 				<svg className="h-4 w-4 border-0 outline-none" viewBox="0 0 32 32">
 					<path
