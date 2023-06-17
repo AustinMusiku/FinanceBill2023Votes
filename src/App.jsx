@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Mps from "./MpsList";
 import mpArray from "./mps";
 import FormDropdown from "./FormDropdown";
+import FormText from "./FormText";
 
 const App = () => {
 	const [showFilters, setShowFilters] = useState(window.innerWidth > 768);
@@ -80,20 +81,14 @@ const App = () => {
 					Finance Bill 2023 votes
 				</h1>
 
-				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-7 md:gap-2">
+				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-7 md:items-end md:gap-2">
 					{/* mp name */}
-					<div className="input-container col-start-1 col-end-3 flex flex-col items-start gap-[0.125rem]">
-						<label className="text-white" htmlFor="player">
-							Search by mp's name
-						</label>
-						<input
-							id="name"
-							type="text"
-							className="block w-full p-2 text-sm"
+					<div className="col-start-1 col-end-3">
+						<FormText
+							label="mp name"
 							value={name}
-							placeholder="e.g., Babu Owino"
 							onChange={(e) => setName(e.target.value)}
-						/>
+						></FormText>
 					</div>
 
 					{/* dropdowns */}
