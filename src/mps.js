@@ -401,8 +401,8 @@ const mpArray = [
 		"KISUMU",
 		"KISUMU WEST",
 		"ODM",
-		"PRESENT",
-		1,
+		"SUSPENDED",
+		null,
 	],
 	[
 		"HON. BWIRE JOHN OKANO",
@@ -446,8 +446,8 @@ const mpArray = [
 		"",
 		"",
 		"JP",
-		"PRESENT",
-		1,
+		"SUSPENDED",
+		null,
 	],
 	[
 		"HON. CHELULE, LIZA CHEPKORIR",
@@ -896,7 +896,7 @@ const mpArray = [
 		"",
 		"",
 		"ODM",
-		"ABSENT",
+		"SUSPENDED",
 		null,
 	],
 	[
@@ -2354,8 +2354,8 @@ const mpArray = [
 		"HOMA BAY",
 		"SUBA NORTH",
 		"",
-		"PRESENT",
-		1,
+		"SUSPENDED",
+		null,
 	],
 	[
 		"HON. OGOLLA. GIDEON OCHANDA",
@@ -2463,7 +2463,7 @@ const mpArray = [
 		"KIBRA",
 		"ODM",
 		"PRESENT",
-		1,
+		0,
 	],
 	[
 		"HON. ORON JOSHUA ODONGO",
