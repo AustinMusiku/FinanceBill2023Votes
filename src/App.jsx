@@ -75,8 +75,8 @@ const App = () => {
 	}
 
 	return (
-		<div className="search-params">
-			<div className="mb-4 bg-slate-900 px-4 pb-4 pt-8 md:mb-8 md:px-12 md:pb-8">
+		<>
+			<header className="mb-4 rounded-b-2xl bg-slate-900 px-6 pb-6 pt-8 md:mb-8 md:rounded-b-3xl md:px-8 md:pb-8">
 				<h1 className="mb-8 font-sans text-3xl text-white">
 					Finance Bill 2023 votes
 				</h1>
@@ -93,7 +93,7 @@ const App = () => {
 
 					{/* dropdowns */}
 					{showFilters && (
-						<div className="grid grid-cols-1 gap-3 md:col-start-4 md:col-end-8 md:grid-cols-4 md:gap-2">
+						<div className="grid grid-cols-1 gap-3 md:col-start-4 md:col-end-8 md:grid-cols-4 md:gap-4">
 							{/* party */}
 							<FormDropdown
 								label="party"
@@ -130,7 +130,7 @@ const App = () => {
 
 					{/* toggle filters */}
 					<button
-						className="col-start-1 col-end-3 mt-0 rounded-sm bg-slate-800 p-2 text-sm text-white md:hidden"
+						className="col-start-1 col-end-3 mt-0 rounded-lg bg-slate-800 p-2 text-sm text-white md:hidden"
 						onClick={(e) => {
 							e.preventDefault();
 							setShowFilters(!showFilters);
@@ -139,13 +139,13 @@ const App = () => {
 						{showFilters ? "Hide filters" : "Show filters"}
 					</button>
 				</form>
-			</div>
+			</header>
 
 			{/* <p className="px-4 text-[0.8rem] md:px-12">
 				Showing <span className="text-green-500">{filteredMps.length} mps</span>
 			</p> */}
 
-			<div className=" px-4 md:px-12">
+			<section className=" px-6 md:px-8">
 				{filteredMps.length === 0 ? (
 					<div className="flex flex-col items-center justify-center gap-4">
 						<h1 className="text-center text-3xl">Oops, no mps found!</h1>
@@ -159,8 +159,8 @@ const App = () => {
 				) : (
 					<Mps mps={filteredMps} />
 				)}
-			</div>
-		</div>
+			</section>
+		</>
 	);
 };
 
