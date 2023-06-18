@@ -4,6 +4,7 @@ import Mps from "./MpsList";
 import mpArray from "./mps";
 import FormDropdown from "./FormDropdown";
 import FormText from "./FormText";
+import MyFooter from "./MyFooter";
 
 const App = () => {
 	const [showFilters, setShowFilters] = useState(window.innerWidth > 768);
@@ -76,9 +77,9 @@ const App = () => {
 	}
 
 	return (
-		<>
-			<header className="mb-4 rounded-b-2xl bg-slate-900 px-6 pb-6 pt-8 md:mb-8 md:rounded-b-3xl md:px-8 md:pb-8">
-				<h1 className="mb-8 font-sans text-3xl text-white">
+		<section className="page-section flex flex-col">
+			<header className="mb-4 bg-slate-900 px-6 pb-6 pt-8 md:mb-8 md:px-8 md:pb-8">
+				<h1 className="mb-5 font-sans text-3xl text-white">
 					Finance Bill 2023 votes
 				</h1>
 
@@ -151,7 +152,8 @@ const App = () => {
 			{/* <p className="px-4 text-[0.8rem] md:px-12">
 				Showing <span className="text-green-500">{filteredMps.length} mps</span>
 			</p> */}
-			<section className=" px-6 md:px-8">
+
+			<section className="mb-4 shrink-0 grow basis-auto px-6 md:mb-8 md:px-8">
 				{filteredMps.length === 0 ? (
 					<div className="flex flex-col items-center justify-center gap-4">
 						<h1 className="text-center text-3xl">Oops, no mps found!</h1>
@@ -166,8 +168,10 @@ const App = () => {
 					<Mps mps={filteredMps} />
 				)}
 			</section>
-			<Analytics />;
-		</>
+
+			<MyFooter />
+			<Analytics />
+		</section>
 	);
 };
 
