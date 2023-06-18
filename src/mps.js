@@ -3140,6 +3140,5 @@ const mpArray = [
 		"PRESENT",
 		1,
 	],
-	["VACANT", "", "GARISSA", "GARISSA TOWNSHIP", "", "", null],
 ];
 export default mpArray;
