@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import Mps from "./MpsList";
+import countyToConstituency from "./countyToConstituency";
 import mpArray from "./mps";
 import FormDropdown from "./FormDropdown";
 import FormText from "./FormText";
@@ -24,6 +25,8 @@ const App = () => {
 	const [filteredMps, setFilteredMps] = useState([]);
 
 	let mps = mpArray;
+	let constituencies =
+		county === "" ? mps.map((item) => item[3]) : countyToConstituency[county];
 
 	useEffect(() => {
 		setFilteredMps(filterMps(mps));
@@ -122,7 +125,7 @@ const App = () => {
 							{/* constituency */}
 							<FormDropdown
 								label="constituency"
-								options={mps.map((item) => item[3])}
+								options={constituencies}
 								value={constituency}
 								onChange={(e) => setConstituency(e.target.value)}
 							></FormDropdown>

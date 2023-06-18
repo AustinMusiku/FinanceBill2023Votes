@@ -1,4 +1,4 @@
-export default countyToConstituency = {
+const countyToConstituency = {
 	NAIROBI: [
 		"EMBAKASI CENTRAL",
 		"KAMKUNJI",
@@ -263,3 +263,5 @@ export default countyToConstituency = {
 	"THARAKA-NITHI": ["THARAKA", "CHUKA IGAMBANG'OMBE", "MAARA"],
 	POKOT: ["POKOT SOUTH"],
 };
+
+export default countyToConstituency;
