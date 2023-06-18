@@ -17,8 +17,6 @@ const FormText = ({ value, onChange }) => {
 				value={value}
 				placeholder="Search by mp's name"
 				onChange={onChange}
-				onFocus={() => setIsFocused(true)}
-				onBlur={() => setIsFocused(false)}
 			/>
 		</div>
 	);
