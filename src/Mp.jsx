@@ -32,8 +32,8 @@ const Mp = ({
 
 				<p className="basis-1/4 text-center text-sm">{attendance}</p>
 
-				<p className="text-righ basis-1/12 text-center text-sm">
-					{vote === 1 ? "YES" : vote === 0 ? "NO" : "-"}
+				<p className="basis-1/12 text-center text-sm md:uppercase">
+					{vote === 1 ? "YES" : vote === 0 ? "NO" : vote === -1 ? "Pend" : "-"}
 				</p>
 			</div>
 		</li>
