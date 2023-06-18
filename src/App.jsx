@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Mps from "./MpsList";
 import mpArray from "./mps";
 import FormDropdown from "./FormDropdown";
@@ -76,10 +77,18 @@ const App = () => {
 
 	return (
 		<>
+			<Analytics />;
 			<header className="mb-4 rounded-b-2xl bg-slate-900 px-6 pb-6 pt-8 md:mb-8 md:rounded-b-3xl md:px-8 md:pb-8">
 				<h1 className="mb-8 font-sans text-3xl text-white">
 					Finance Bill 2023 votes
 				</h1>
+
+				{/* <p className="mb-8 max-w-prose text-base text-gray-400">
+					These are the votes of the members of the 13th Parliament of Kenya on
+					15th June 2023 on the Finance Bill. The bill passed it's second
+					reading by 176 votes to 81. Some of the votes are still pending and
+					will be updated ASAP.
+				</p> */}
 
 				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-7 md:items-end md:gap-2">
 					{/* mp name */}
@@ -140,11 +149,9 @@ const App = () => {
 					</button>
 				</form>
 			</header>
-
 			{/* <p className="px-4 text-[0.8rem] md:px-12">
 				Showing <span className="text-green-500">{filteredMps.length} mps</span>
 			</p> */}
-
 			<section className=" px-6 md:px-8">
 				{filteredMps.length === 0 ? (
 					<div className="flex flex-col items-center justify-center gap-4">
