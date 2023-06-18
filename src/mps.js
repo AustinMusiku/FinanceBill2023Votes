@@ -114,7 +114,7 @@ const mpArray = [
 		"MANDERA NORTH",
 		"UDM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. ABUBAKAR TALIB AHMED",
@@ -168,7 +168,7 @@ const mpArray = [
 		"NORTH HORR",
 		"KANU",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. ADOW ADEN MOHAMMED",
@@ -294,7 +294,7 @@ const mpArray = [
 		"TARBAJ",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. BARTOO PHYLIS JEPKEMOI",
@@ -303,7 +303,7 @@ const mpArray = [
 		"MOIBEN",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. BASIL ROBERT NGUI",
@@ -339,7 +339,7 @@ const mpArray = [
 		"ISIOLO SOUTH",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. BIEGO PAUL KIBICHIY",
@@ -366,7 +366,7 @@ const mpArray = [
 		"ISIOLO",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. BOSS GLADYS JEPKOSGEI",
@@ -375,7 +375,7 @@ const mpArray = [
 		"UASIN GISHU",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. BOWEN DAVID KANGOGO",
@@ -501,7 +501,7 @@ const mpArray = [
 		"MT. ELGON",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. CHIFOROMODO, MANGALE MUNGA",
@@ -510,7 +510,7 @@ const mpArray = [
 		"LUNGA LUNGA",
 		"UDM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. CHIKATI JOHN MURUMBA",
@@ -582,7 +582,7 @@ const mpArray = [
 		"FAFI",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. FARAH YUSSUF MOHAMED",
@@ -591,7 +591,7 @@ const mpArray = [
 		"WAJIR WEST",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. GACHAGUA GEORGE",
@@ -600,7 +600,7 @@ const mpArray = [
 		"NDARAGWA",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. GACHOBE SAMUEL KINUTHIA",
@@ -645,7 +645,7 @@ const mpArray = [
 		"HAMISI",
 		"ANC",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. GISAIRO CLIVE OMBANE",
@@ -654,7 +654,7 @@ const mpArray = [
 		"KITUTU MASABA",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. GITARI, JOSEPH GACHOKI",
@@ -771,7 +771,7 @@ const mpArray = [
 		"MALAVA",
 		"ANC",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. ITHINJI SHADRACK MWITI",
@@ -798,7 +798,7 @@ const mpArray = [
 		"WAJIR",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. JHANDA ZAHEER",
@@ -807,7 +807,7 @@ const mpArray = [
 		"NYARIBARI CHACHE",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. JOSEPH WAINAINA IRAYA",
@@ -969,7 +969,7 @@ const mpArray = [
 		"KASARANI",
 		"INDPT",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KAREMBA, ERIC MUCHANGI.N.",
@@ -978,7 +978,7 @@ const mpArray = [
 		"RUNYENJES",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KARIUKI GEORGE MACHARIA",
@@ -1077,7 +1077,7 @@ const mpArray = [
 		"MAKUENI",
 		"WDM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KIARAHO, DAVID NJUGUNA",
@@ -1113,7 +1113,7 @@ const mpArray = [
 		"KANGEMA",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KILEL, RICHARD CHERUIYOT",
@@ -1167,7 +1167,7 @@ const mpArray = [
 		"SOY",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KIPNGOR REUBEN KIBOREK",
@@ -1176,7 +1176,7 @@ const mpArray = [
 		"",
 		"",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KIPYEGON, JOHANA NGENO",
@@ -1203,7 +1203,7 @@ const mpArray = [
 		"MOSOP",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KITANY MARIANNE",
@@ -1212,7 +1212,7 @@ const mpArray = [
 		"ALDAI",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KITI RICHARD KEN CHONGA",
@@ -1248,7 +1248,7 @@ const mpArray = [
 		"CHEPALUNGU",
 		"CCM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KOECH, NELSON",
@@ -1266,7 +1266,7 @@ const mpArray = [
 		"MAGARINI",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KOMINGOI KIBET KIRUI",
@@ -1284,7 +1284,7 @@ const mpArray = [
 		"LAIKIPIA NORTH",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KORIR ADAMS KIPSANAI",
@@ -1320,7 +1320,7 @@ const mpArray = [
 		"BURA",
 		"UPIA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KUNO, AMINA UDGOON SIYAD",
@@ -1329,7 +1329,7 @@ const mpArray = [
 		"GARISSA",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. KURURIA ELIJAH NJORE NJOROGE",
@@ -1347,7 +1347,7 @@ const mpArray = [
 		"LAISAMIS",
 		"UDM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. LELMENGIT, JOSSES KIPTOO KOSGEY",
@@ -1419,7 +1419,7 @@ const mpArray = [
 		"ISIOLO NORTH",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. LOTEE TITUS",
@@ -1428,7 +1428,7 @@ const mpArray = [
 		"KACHELIBA",
 		"KUP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. LUYAI, CALEB AMISI",
@@ -1446,7 +1446,7 @@ const mpArray = [
 		"DADAAB",
 		"WDM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MACHELE MOHAMED SOUD",
@@ -1455,7 +1455,7 @@ const mpArray = [
 		"MVITA",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MAINA JANE NJERI",
@@ -1473,7 +1473,7 @@ const mpArray = [
 		"MURANG'A",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MAINGI MARY",
@@ -1482,7 +1482,7 @@ const mpArray = [
 		"MWEA",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MAISORI MARWA KEMERO KITAYAMA",
@@ -1500,7 +1500,7 @@ const mpArray = [
 		"KABUCHAI",
 		"FORD-K",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MAKALI JOHN OKWISIA",
@@ -1527,7 +1527,7 @@ const mpArray = [
 		"LAMU",
 		"INDPT",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MASARA PETER FRANCIS",
@@ -1545,7 +1545,7 @@ const mpArray = [
 		"KWALE",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MATHENGE DUNCAN MAINA",
@@ -1581,7 +1581,7 @@ const mpArray = [
 		"KITUI EAST",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MBALU JESSICA NDUKU KIKO",
@@ -1626,7 +1626,7 @@ const mpArray = [
 		"TAITA TAVETA",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MNYAZI AMINA LAURA",
@@ -1635,7 +1635,7 @@ const mpArray = [
 		"MALINDI",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MOGAKA STEPHEN",
@@ -1662,7 +1662,7 @@ const mpArray = [
 		"WAJIR EAST",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MOHAMED MOHAMED ALI",
@@ -1671,7 +1671,7 @@ const mpArray = [
 		"NYALI",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MOHAMED UMULKHER HARUN",
@@ -1680,7 +1680,7 @@ const mpArray = [
 		"",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MOHAMMED FATUMA ZAINAB",
@@ -1707,7 +1707,7 @@ const mpArray = [
 		"NYAMIRA",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MREMBO IRENE NJOKI",
@@ -1743,7 +1743,7 @@ const mpArray = [
 		"NANDI",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MUHANDA ELSIE BUSIHILE",
@@ -1752,7 +1752,7 @@ const mpArray = [
 		"KAKAMEGA",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MUHIA WANJIKU",
@@ -1779,7 +1779,7 @@ const mpArray = [
 		"MANYATTA",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MULANYA EKESA GEOFFREY",
@@ -1797,7 +1797,7 @@ const mpArray = [
 		"MACHAKOS TOWN",
 		"MCCP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MULE STEPHEN MUTINDA",
@@ -1815,7 +1815,7 @@ const mpArray = [
 		"KANGUNDO",
 		"GDDP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MULU MAKALI",
@@ -1869,7 +1869,7 @@ const mpArray = [
 		"KIAMBU",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MURIU WAKILI EDWARD",
@@ -1905,7 +1905,7 @@ const mpArray = [
 		"MWALA",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MUTAI KIPRONOH ALFRED",
@@ -1923,7 +1923,7 @@ const mpArray = [
 		"LAMU WEST",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MUTUA, DIDMUS WEKESA BARASA",
@@ -1950,7 +1950,7 @@ const mpArray = [
 		"KIBWEZI WEST",
 		"MCCP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. MWAFRIKA AUGUSTINE KAMANDE",
@@ -2103,7 +2103,7 @@ const mpArray = [
 		"THARAKA-NITHI",
 		"TSP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. NGANGA ALICE WAMBUI",
@@ -2184,7 +2184,7 @@ const mpArray = [
 		"MARAGWA",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. NTUTU KITILAI OLE",
@@ -2274,7 +2274,7 @@ const mpArray = [
 		"MWINGI NORTH",
 		"WDM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. NZIOKA ERASTUS KIVASU",
@@ -2310,7 +2310,7 @@ const mpArray = [
 		"LAMU EAST",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. OCHIENG DAVID OUMA",
@@ -2328,7 +2328,7 @@ const mpArray = [
 		"MATAYOS",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. ODEGE TOM MBOYA",
@@ -2364,7 +2364,7 @@ const mpArray = [
 		"BONDO",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. OKELO, JARED ODOYO",
@@ -2436,7 +2436,7 @@ const mpArray = [
 		"MAKADARA",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. ONCHOKE CHARLES MAMWACHA",
@@ -2463,7 +2463,7 @@ const mpArray = [
 		"KIBRA",
 		"ODM",
 		"PRESENT",
-		0,
+		1,
 	],
 	[
 		"HON. ORON JOSHUA ODONGO",
@@ -2490,7 +2490,7 @@ const mpArray = [
 		"HOMA BAY",
 		"ODM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. OTUCHO, MARY EMAASE",
@@ -2643,7 +2643,7 @@ const mpArray = [
 		"MBEERE NORTH",
 		"DP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. SALASYA PETER KALERWA",
@@ -2670,7 +2670,7 @@ const mpArray = [
 		"WAJIR NORTH",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. SANKAIRE LEAH SOPIATO",
@@ -2733,7 +2733,7 @@ const mpArray = [
 		"BALAMBALA",
 		"JP",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. SIGEI, FRANCIS KIPYEGON ARAP",
@@ -2814,7 +2814,7 @@ const mpArray = [
 		"KAJIADO WEST",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. SUNKULI, JULIUS LEKAKENY",
@@ -2841,7 +2841,7 @@ const mpArray = [
 		"MATUGA",
 		"ANC",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. THUKU ZACHARY KWENYA",
@@ -2949,7 +2949,7 @@ const mpArray = [
 		"BUNGOMA",
 		"FORD-K",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. WAMBOKA WANAMI JACK NELSON",
@@ -3030,7 +3030,7 @@ const mpArray = [
 		"KWANZA",
 		"FORD-K",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON. WANYONYI MARTIN PEPELA",
@@ -3102,7 +3102,7 @@ const mpArray = [
 		"MANDERA WEST",
 		"UDM",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON.(CPA) KIMANI FRANCIS KURIA",
@@ -3111,7 +3111,7 @@ const mpArray = [
 		"MOLO",
 		"UDA",
 		"PRESENT",
-		1,
+		-1,
 	],
 	[
 		"HON.KARITHO KIILI DANIEL",
@@ -3128,6 +3128,15 @@ const mpArray = [
 		"THARAKA-NITHI",
 		"MAARA",
 		"UDA",
+		"PRESENT",
+		1,
+	],
+	[
+		"HON. RINDIKIRI, MUGAMBI MURWITHANIA",
+		"http://www.parliament.go.ke/sites/default/files/2022-09/mini_cropped%20maara.jpg",
+		"MERU",
+		"BUURI",
+		"JP",
 		"PRESENT",
 		1,
 	],
