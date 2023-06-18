@@ -80,15 +80,15 @@ const App = () => {
 		<section className="page-section flex flex-col">
 			<header className="mb-4 bg-slate-900 px-6 pb-6 pt-8 md:mb-8 md:px-8 md:pb-8">
 				<h1 className="mb-5 font-sans text-3xl text-white">
-					Finance Bill 2023 votes
+					Finance Bill 2023 Votes
 				</h1>
 
-				{/* <p className="mb-8 max-w-prose text-base text-gray-400">
-					These are the votes of the members of the 13th Parliament of Kenya on
-					15th June 2023 on the Finance Bill. The bill passed it's second
-					reading by 176 votes to 81. Some of the votes are still pending and
-					will be updated ASAP.
-				</p> */}
+				<p className="mb-5 max-w-prose text-base text-gray-400">
+					These are the votes by the members of the 13th Parliament of Kenya on
+					the 14th of June 2023 regarding the finance bill. The bill passed its
+					second reading by 176 votes to 81. Some of the votes are still pending
+					verification and will be updated ASAP.
+				</p>
 
 				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-7 md:items-end md:gap-2">
 					{/* mp name */}
@@ -156,7 +156,7 @@ const App = () => {
 			<section className="mb-4 shrink-0 grow basis-auto px-6 md:mb-8 md:px-8">
 				{filteredMps.length === 0 ? (
 					<div className="flex flex-col items-center justify-center gap-4">
-						<h1 className="text-center text-3xl">Oops, no mps found!</h1>
+						<h1 className="mt-12 text-center text-xl">No mps found!</h1>
 						<button
 							onClick={resetFilters}
 							className="text-blue-500 underline hover:text-blue-700"
