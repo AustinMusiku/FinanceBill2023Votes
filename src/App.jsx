@@ -77,7 +77,6 @@ const App = () => {
 
 	return (
 		<>
-			<Analytics />;
 			<header className="mb-4 rounded-b-2xl bg-slate-900 px-6 pb-6 pt-8 md:mb-8 md:rounded-b-3xl md:px-8 md:pb-8">
 				<h1 className="mb-8 font-sans text-3xl text-white">
 					Finance Bill 2023 votes
@@ -167,6 +166,7 @@ const App = () => {
 					<Mps mps={filteredMps} />
 				)}
 			</section>
+			<Analytics />;
 		</>
 	);
 };
