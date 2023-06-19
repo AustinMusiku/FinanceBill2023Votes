@@ -2,8 +2,16 @@ import Mp from "./Mp";
 
 const MpsList = ({ mps }) => {
 	let mpsList = mps.map((item, idx) => {
-		const [name, imageLink, county, constituency, party, attendance, vote] =
-			item;
+		const [
+			name,
+			imageLink,
+			county,
+			constituency,
+			party,
+			attendance,
+			vote,
+			status,
+		] = item;
 
 		const mp = {
 			name,
@@ -13,6 +21,7 @@ const MpsList = ({ mps }) => {
 			party,
 			attendance,
 			vote,
+			status,
 		};
 
 		return (
@@ -26,6 +35,7 @@ const MpsList = ({ mps }) => {
 				party={mp.party}
 				attendance={mp.attendance ?? true}
 				vote={mp.vote ?? true}
+				status={mp.status ?? ""}
 			/>
 		);
 	});
@@ -43,10 +53,13 @@ const MpsList = ({ mps }) => {
 
 					<div className="flex basis-1/2 flex-row justify-between md:basis-[65%]">
 						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
-							Constituency
+							Status
 						</p>
 						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
 							County
+						</p>
+						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
+							Constituency
 						</p>
 						<p className="basis-1/12 text-center text-sm font-bold">Party</p>
 						<p className="basis-1/4 text-center text-sm font-bold">
