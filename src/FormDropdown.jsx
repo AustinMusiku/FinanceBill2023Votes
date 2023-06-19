@@ -5,7 +5,7 @@ const FormDropdown = ({ label, options, value, onChange }) => {
 				Filter by {label}
 			</label>
 			<select
-				id="name"
+				id={label}
 				className="block w-full rounded-lg border-none bg-[#141f39] py-2 pl-3 pr-2 text-sm text-[#f2f2f2]"
 				value={value}
 				onChange={onChange}
