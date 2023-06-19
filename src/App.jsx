@@ -27,7 +27,9 @@ const App = () => {
 
 	let mps = mpArray;
 	let constituencies =
-		county === "" ? mps.map((item) => item[3]) : countyToConstituency[county];
+		county === ""
+			? Object.values(countyToConstituency).flat()
+			: countyToConstituency[county];
 
 	useEffect(() => {
 		setFilteredMps(filterMps(mps));
@@ -71,6 +73,13 @@ const App = () => {
 		}
 
 		if (constituency !== "") {
+			if (
+				county !== "" &&
+				!countyToConstituency[county].includes(constituency)
+			) {
+				mps = mps.filter((item) => item[2] === county);
+				setConstituency("");
+			}
 			mps = mps.filter((item) => item[3] === constituency);
 		}
 
