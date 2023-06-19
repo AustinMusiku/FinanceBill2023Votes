@@ -61,6 +61,13 @@ const App = () => {
 		}
 
 		if (status !== "") {
+			// disable constituency dropdown #constituency
+			if (status === "CONSTITUENCY" || status === "") {
+				document.getElementById("constituency").disabled = false;
+			} else {
+				setConstituency("");
+				document.getElementById("constituency").disabled = true;
+			}
 			mps = mps.filter((item) => item[7] === status);
 		}
 
@@ -79,8 +86,9 @@ const App = () => {
 			) {
 				mps = mps.filter((item) => item[2] === county);
 				setConstituency("");
+			} else {
+				mps = mps.filter((item) => item[3] === constituency);
 			}
-			mps = mps.filter((item) => item[3] === constituency);
 		}
 
 		if (attendance !== "") {
