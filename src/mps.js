@@ -7,7 +7,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. (AMB.) LANGAT BENJAMIN KIPKIRUI",
@@ -17,7 +17,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. (DR.) GICHUKI EDWIN MUGO",
@@ -27,7 +27,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. (DR.) JACKSON KIPKEMOI KOSGEI",
@@ -37,7 +37,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"NOMINATED MP",
+		"NOMINATED",
 	],
 	[
 		"HON. (DR.) PUKOSE ROBERT",
@@ -47,7 +47,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. (ENG.)  NZAMBIA KITHUA THUDDEUS",
@@ -57,7 +57,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ABDI ALI ABDI",
@@ -67,7 +67,7 @@ const mpArray = [
 		"NAP-K",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ABDI KHAMIS CHOME",
@@ -77,7 +77,7 @@ const mpArray = [
 		"WDM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ABDI, YUSUF HASSAN",
@@ -87,7 +87,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ABDIRAHMAN MOHAMED ABDI",
@@ -97,7 +97,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ABDIRAHMAN, HUSSEINWEYTAN MOHAMED",
@@ -107,7 +107,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ABDULLAHI AMINA DIKA",
@@ -117,7 +117,7 @@ const mpArray = [
 		"KANU",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. ABDULLAIH BASHIR SHEIKH",
@@ -127,18 +127,9 @@ const mpArray = [
 		"UDM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
-	[
-		"HON. ABUBAKAR TALIB AHMED",
-		"",
-		"",
-		"",
-		"WDM",
-		"PRESENT",
-		1,
-		"NOMINATED MP",
-	],
+	["HON. ABUBAKAR TALIB AHMED", "", "", "", "WDM", "PRESENT", 1, "NOMINATED"],
 	[
 		"HON. ABUOR PAUL",
 		"",
@@ -147,7 +138,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ABURI DONYA DORICE",
@@ -157,7 +148,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. ABURI, LAWRENCE MPURU",
@@ -167,7 +158,7 @@ const mpArray = [
 		"NOPEU",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ADAGALA, BEATRICE KAHAI",
@@ -177,7 +168,7 @@ const mpArray = [
 		"ANC",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. ADHE WARIO GUYO",
@@ -187,7 +178,7 @@ const mpArray = [
 		"KANU",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ADOW ADEN MOHAMMED",
@@ -197,7 +188,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. AHMED SHAKEEL AHMED SHABBIR",
@@ -207,7 +198,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. AKUJAH, PROTUS EWESIT",
@@ -217,7 +208,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ALFAH ONDIEKI MIRUKA",
@@ -227,18 +218,9 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
-	[
-		"HON. ALI ABDISIRAT KHALIF",
-		"",
-		"",
-		"",
-		"UDA",
-		"PRESENT",
-		1,
-		"NOMINATED MP",
-	],
+	["HON. ALI ABDISIRAT KHALIF", "", "", "", "UDA", "PRESENT", 1, "NOMINATED"],
 	[
 		"HON. AMOLLO PAUL OTIENDE",
 		"",
@@ -247,7 +229,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ARAMA SAMUEL",
@@ -257,7 +239,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ARIKO JOHN NAMOIT",
@@ -267,7 +249,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ATANDI SAMUEL ONUNGA",
@@ -277,7 +259,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BABU OWINO PAUL ONGILI",
@@ -287,7 +269,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BADY BADY TWALIB",
@@ -297,7 +279,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BARASA PATRICK SIMIYU",
@@ -307,7 +289,7 @@ const mpArray = [
 		"DAP-K",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BARONGO NOLFASON OBADIAH",
@@ -317,7 +299,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BARRE HUSSEIN ABDI",
@@ -327,7 +309,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BARTOO PHYLIS JEPKEMOI",
@@ -337,7 +319,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BASIL ROBERT NGUI",
@@ -347,7 +329,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BAYA OWEN YAA",
@@ -357,7 +339,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BEDZIMBA RASHID JUMA",
@@ -367,7 +349,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BIDU, MOHAMED TUBI",
@@ -377,7 +359,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BIEGO PAUL KIBICHIY",
@@ -387,7 +369,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BISAU, MAURICE KAKAI",
@@ -397,7 +379,7 @@ const mpArray = [
 		"DAP-K",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BONAYA MUMINA GOLLO",
@@ -407,7 +389,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. BOSS GLADYS JEPKOSGEI",
@@ -417,7 +399,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. BOWEN DAVID KANGOGO",
@@ -427,7 +409,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BUSIA RUTH ADHIAMBO ODINGA",
@@ -437,7 +419,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. BUYU ROZAAH AKINYI",
@@ -447,7 +429,7 @@ const mpArray = [
 		"ODM",
 		"SUSPENDED",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. BWIRE JOHN OKANO",
@@ -457,7 +439,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHEBOR, PAUL KIBET",
@@ -467,7 +449,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHEGE JOHN KIRAGU",
@@ -477,7 +459,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHEGE NJUGUNA",
@@ -487,7 +469,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHEGE SABINA WANJIRU",
@@ -497,7 +479,7 @@ const mpArray = [
 		"JP",
 		"SUSPENDED",
 		null,
-		"NOMINATED MP",
+		"NOMINATED",
 	],
 	[
 		"HON. CHELULE, LIZA CHEPKORIR",
@@ -507,7 +489,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. CHEPKONGA, SAMUEL KIPRONO",
@@ -517,7 +499,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHEPKORIR, LINET",
@@ -527,7 +509,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. CHEPKWONY  CHARITY KATHAMBI",
@@ -537,7 +519,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHEROROT JOSEPH KIMUTAI",
@@ -547,7 +529,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHESEBE FRED KAPONDI",
@@ -557,7 +539,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHIFOROMODO, MANGALE MUNGA",
@@ -567,7 +549,7 @@ const mpArray = [
 		"UDM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHIKATI JOHN MURUMBA",
@@ -577,7 +559,7 @@ const mpArray = [
 		"FORD-K",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CHUMEL, MOROTO SAMUEL",
@@ -587,7 +569,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. CPA RUTTO JULIUS KIPLETTING",
@@ -597,7 +579,7 @@ const mpArray = [
 		"UDA",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. DAWOOD, ABDUL RAHIM",
@@ -607,9 +589,9 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
-	["HON. DENA JOSEPH HAMISI", "", "", "", "ANC", "PRESENT", 1, "NOMINATED MP"],
+	["HON. DENA JOSEPH HAMISI", "", "", "", "ANC", "PRESENT", 1, "NOMINATED"],
 	[
 		"HON. EKWOM NABUIN",
 		"",
@@ -618,7 +600,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ELACHI BEATRICE KADEVERESIA",
@@ -628,7 +610,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. FARAH SALAH YAKUB",
@@ -638,7 +620,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. FARAH YUSSUF MOHAMED",
@@ -648,7 +630,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GACHAGUA GEORGE",
@@ -658,7 +640,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GACHOBE SAMUEL KINUTHIA",
@@ -668,7 +650,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GAKUYA JAMES MWANGI",
@@ -678,7 +660,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GIDEON KIMAIYO",
@@ -688,7 +670,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GIKARIA, DAVID",
@@ -698,7 +680,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GIMOSE, CHARLES GUMINI",
@@ -708,7 +690,7 @@ const mpArray = [
 		"ANC",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GISAIRO CLIVE OMBANE",
@@ -718,7 +700,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GITARI, JOSEPH GACHOKI",
@@ -728,7 +710,7 @@ const mpArray = [
 		"UDA",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GITAU FAITH WAIRIMU",
@@ -738,7 +720,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. GITHINJI, ROBERT GICHIMU",
@@ -748,7 +730,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GOGO, LILIAN ACHIENG",
@@ -758,7 +740,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. GUYO ALI WARIO",
@@ -768,7 +750,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. HAMISI KAKUTA MAIMAI",
@@ -778,7 +760,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. HARO ABDUL EBRAHIM",
@@ -788,7 +770,7 @@ const mpArray = [
 		"UDM",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. HASSAN KULOW MAALIM",
@@ -798,7 +780,7 @@ const mpArray = [
 		"UDM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. HIRIBAE SAID BUYA",
@@ -808,7 +790,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ICHUNG'WAH ANTONY KIMANI",
@@ -818,7 +800,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. IKANA FREDRICK LUSULI",
@@ -828,7 +810,7 @@ const mpArray = [
 		"ANC",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. IKIARA, DOROTHY MUTHONI",
@@ -838,7 +820,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"NOMINATED MP",
+		"NOMINATED",
 	],
 	[
 		"HON. INJENDI MOSES MALULU",
@@ -848,7 +830,7 @@ const mpArray = [
 		"ANC",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ITHINJI SHADRACK MWITI",
@@ -858,7 +840,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. JALDESA GUYO WAQO",
@@ -868,7 +850,7 @@ const mpArray = [
 		"UPIA",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. JEHOW FATUMA ABDI",
@@ -878,7 +860,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. JHANDA ZAHEER",
@@ -888,9 +870,9 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
-	["HON. JOSEPH WAINAINA IRAYA", "", "", "", "", "PRESENT", 1, "NOMINATED MP"],
+	["HON. JOSEPH WAINAINA IRAYA", "", "", "", "", "PRESENT", 1, "NOMINATED"],
 	[
 		"HON. JUNET MOHAMED",
 		"",
@@ -899,7 +881,7 @@ const mpArray = [
 		"",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAGESI ERNEST OGESI KIVAI",
@@ -909,7 +891,7 @@ const mpArray = [
 		"ANC",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAGIRI JANE WANGECHI",
@@ -919,7 +901,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. KAGOMBE GABRIEL GATHUKA",
@@ -929,7 +911,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAGUCHIA JOHN PHILIP GICHOHI",
@@ -939,7 +921,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAHANGARA JOSEPH MBURU",
@@ -949,7 +931,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAHUGU ERIC MWANGI",
@@ -959,7 +941,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAILEMIA ELIZABETH KARAMBU",
@@ -969,7 +951,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. KAJWANG', FRANCIS TOM JOSEPH",
@@ -979,7 +961,7 @@ const mpArray = [
 		"ODM",
 		"SUSPENDED",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KALUMA GEORGE PETER OPONDO",
@@ -989,7 +971,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAMENE, JOYCE",
@@ -999,7 +981,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. KAMKET KASSAIT WILLIAM",
@@ -1009,7 +991,7 @@ const mpArray = [
 		"KANU",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAMUREN, CHARLES",
@@ -1019,7 +1001,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KANCHORY, ELIJAH MEMUSI",
@@ -1029,7 +1011,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KANDIE, JOSHUA CHEPYEGON",
@@ -1039,7 +1021,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KARANI STEPHEN WACHIRA",
@@ -1049,7 +1031,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KARAURI, RONALD KAMWIKO",
@@ -1059,7 +1041,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAREMBA, ERIC MUCHANGI.N.",
@@ -1069,7 +1051,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KARIUKI GEORGE MACHARIA",
@@ -1079,7 +1061,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KASALU, IRENE MUTHONI",
@@ -1089,7 +1071,7 @@ const mpArray = [
 		"WDM",
 		"ABSENT",
 		null,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. KASIWAI RAEL KASIWAI",
@@ -1099,7 +1081,7 @@ const mpArray = [
 		"KUP",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. KATANA PAUL KAHINDI",
@@ -1109,7 +1091,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KAUNYA EDWARD OKU",
@@ -1119,7 +1101,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KEMEI JUSTICE KIPSANG",
@@ -1129,7 +1111,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KEMEI, BEATRICE CHEPNGENO",
@@ -1139,7 +1121,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. KEYNAN, WEHLIYE ADAN",
@@ -1149,7 +1131,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KHAMISI MBOKO MISHI JUMA",
@@ -1159,7 +1141,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KHODHE PHELIX ODIWUOR",
@@ -1169,7 +1151,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIAMBA SUZANNE NDUNGE",
@@ -1179,7 +1161,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIARAHO, DAVID NJUGUNA",
@@ -1189,7 +1171,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIBAGENDI, ANTONEY",
@@ -1199,7 +1181,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIHARA, JAYNE N.W",
@@ -1209,7 +1191,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIHUNGI PETER IRUNGU",
@@ -1219,7 +1201,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KILEL, RICHARD CHERUIYOT",
@@ -1229,7 +1211,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIMILU, JOSHUA KIVINDA",
@@ -1239,7 +1221,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KING'OLA PATRICK MAKAU",
@@ -1249,7 +1231,7 @@ const mpArray = [
 		"WDM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KINGARA,  SIMON NGANGA",
@@ -1259,7 +1241,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIPKOROS, JOSEPH MAKILAP",
@@ -1269,7 +1251,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIPLAGAT DAVID",
@@ -1279,7 +1261,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIPNGOR REUBEN KIBOREK",
@@ -1289,7 +1271,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIPYEGON, JOHANA NGENO",
@@ -1299,7 +1281,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIRIMA MOSES NGUCHINE",
@@ -1309,7 +1291,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIRWA ABRAHAM KIPSANG",
@@ -1319,7 +1301,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KITANY MARIANNE",
@@ -1329,7 +1311,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KITI RICHARD KEN CHONGA",
@@ -1339,7 +1321,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KITUR, BERNARD KIBOR",
@@ -1349,7 +1331,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KIUNJURI, MWANGI FESTUS",
@@ -1359,7 +1341,7 @@ const mpArray = [
 		"TSP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KOECH KIPNGETICH VICTOR",
@@ -1369,7 +1351,7 @@ const mpArray = [
 		"CCM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KOECH, NELSON",
@@ -1379,7 +1361,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KOMBE HARRISON GARAMA",
@@ -1389,7 +1371,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KOMINGOI KIBET KIRUI",
@@ -1399,7 +1381,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KORERE SARAH PAULATA",
@@ -1409,7 +1391,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KORIR ADAMS KIPSANAI",
@@ -1419,7 +1401,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KOSGEI HILARY KIPLANG'AT",
@@ -1429,7 +1411,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KOYI JOHN WALUKE",
@@ -1439,7 +1421,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KUNO YAKUB ADOW",
@@ -1449,7 +1431,7 @@ const mpArray = [
 		"UPIA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. KUNO, AMINA UDGOON SIYAD",
@@ -1459,7 +1441,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. KURURIA ELIJAH NJORE NJOROGE",
@@ -1469,7 +1451,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LEKUTON JOSEPH",
@@ -1479,7 +1461,7 @@ const mpArray = [
 		"UDM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LELMENGIT, JOSSES KIPTOO KOSGEY",
@@ -1489,7 +1471,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LEMANKEN ARAMAT",
@@ -1499,7 +1481,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LENGURIS PAULINE",
@@ -1509,7 +1491,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. LENTOIJONI, JACKSON LEKUMONTARE",
@@ -1519,7 +1501,7 @@ const mpArray = [
 		"KANU",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LESUUDA, NAISULA",
@@ -1529,7 +1511,7 @@ const mpArray = [
 		"KANU",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LETIPILA, DOMINIC ELI",
@@ -1539,7 +1521,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LOCHAKAPONG, PETER",
@@ -1549,7 +1531,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LOMWA JOSEPH SAMAL",
@@ -1559,7 +1541,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LOTEE TITUS",
@@ -1569,7 +1551,7 @@ const mpArray = [
 		"KUP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. LUYAI, CALEB AMISI",
@@ -1579,7 +1561,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MAALIM, FARAH",
@@ -1589,7 +1571,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MACHELE MOHAMED SOUD",
@@ -1599,7 +1581,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MAINA JANE NJERI",
@@ -1609,7 +1591,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MAINA, BETTY NJERI",
@@ -1619,7 +1601,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MAINGI MARY",
@@ -1629,7 +1611,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MAISORI MARWA KEMERO KITAYAMA",
@@ -1639,7 +1621,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MAJIMBO, KALASINGA",
@@ -1649,7 +1631,7 @@ const mpArray = [
 		"FORD-K",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MAKALI JOHN OKWISIA",
@@ -1659,7 +1641,7 @@ const mpArray = [
 		"FORD-K",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MANDUKU, DANIEL OGWOKA",
@@ -1669,7 +1651,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MARUBU MUTHONI MONICAH",
@@ -1679,7 +1661,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MASARA PETER FRANCIS",
@@ -1689,7 +1671,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MASITO, FATUMA HAMISI",
@@ -1699,7 +1681,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MATHENGE DUNCAN MAINA",
@@ -1709,7 +1691,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MAWATHE JULIUS MUSILI",
@@ -1719,7 +1701,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MAYAKA IRENE NYAKERARIO",
@@ -1729,7 +1711,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"NOMINATED MP",
+		"NOMINATED",
 	],
 	[
 		"HON. MBAI, NIMROD MBITHUKA",
@@ -1739,7 +1721,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MBALU JESSICA NDUKU KIKO",
@@ -1749,7 +1731,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MBONI, DAVID MWALIKA",
@@ -1759,7 +1741,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MBUI, ROBERT",
@@ -1769,7 +1751,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MELI, JULIUS KIPBIRWOT",
@@ -1779,7 +1761,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MIZIGHI LYDIA HAIKA",
@@ -1789,7 +1771,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MNYAZI AMINA LAURA",
@@ -1799,7 +1781,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MOGAKA STEPHEN",
@@ -1809,7 +1791,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MOHAMED ABDIKADIR HUSSEIN",
@@ -1819,7 +1801,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MOHAMED ADEN DAUDI",
@@ -1829,7 +1811,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MOHAMED MOHAMED ALI",
@@ -1839,7 +1821,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MOHAMED UMULKHER HARUN",
@@ -1849,7 +1831,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"NOMINATED MP",
+		"NOMINATED",
 	],
 	[
 		"HON. MOHAMMED FATUMA ZAINAB",
@@ -1859,7 +1841,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		0,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MOHAMMED ZAMZAM CHIMBA",
@@ -1869,7 +1851,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MOMANYI JERUSHA MONGINA",
@@ -1879,7 +1861,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MREMBO IRENE NJOKI",
@@ -1889,7 +1871,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUCHIRA, MICHAEL MWANGI",
@@ -1899,7 +1881,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUGABE INNOCENT MAINO",
@@ -1909,7 +1891,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUGE CYNTHIA JEPKOSGEI",
@@ -1919,7 +1901,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MUHANDA ELSIE BUSIHILE",
@@ -1929,7 +1911,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MUHIA WANJIKU",
@@ -1939,7 +1921,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUKHWANA TITUS KHAMALA",
@@ -1949,7 +1931,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUKUNJI JOHN GITONGA MWANIKI",
@@ -1959,7 +1941,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MULANYA EKESA GEOFFREY",
@@ -1969,7 +1951,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MULE CALEB MUTISO",
@@ -1979,7 +1961,7 @@ const mpArray = [
 		"MCCP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MULE STEPHEN MUTINDA",
@@ -1989,7 +1971,7 @@ const mpArray = [
 		"WDM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MULI FABIAN KYULE",
@@ -1999,7 +1981,7 @@ const mpArray = [
 		"GDDP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MULU MAKALI",
@@ -2009,7 +1991,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MULYUNGI, GIDEON MUTEMI",
@@ -2019,7 +2001,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUMO, ROSE MUSEO",
@@ -2029,7 +2011,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MUNYORO JOSEPH KAMAU",
@@ -2039,7 +2021,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUPE ANTHONY KENGA",
@@ -2049,7 +2031,7 @@ const mpArray = [
 		"PAA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MURATHA ANNE WANJIKU MUGO",
@@ -2059,7 +2041,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MURIU WAKILI EDWARD",
@@ -2069,7 +2051,7 @@ const mpArray = [
 		"UDA",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MURIUKI NEBART BERNARD",
@@ -2079,7 +2061,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MURUGARA GEORGE GITONGA",
@@ -2089,7 +2071,7 @@ const mpArray = [
 		"UDA",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUSAU, VINCENT MUSYOKA",
@@ -2099,7 +2081,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUTAI KIPRONOH ALFRED",
@@ -2109,7 +2091,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUTHAMA STANLEY MUIRURI",
@@ -2119,7 +2101,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUTUA, DIDMUS WEKESA BARASA",
@@ -2129,7 +2111,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUTUNGA JOHN KANYUITHIA",
@@ -2139,7 +2121,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MUTUSE ECKOMAS MWENGI",
@@ -2149,7 +2131,7 @@ const mpArray = [
 		"MCCP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MWAFRIKA AUGUSTINE KAMANDE",
@@ -2159,7 +2141,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MWAGO AMOS MAINA",
@@ -2169,7 +2151,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MWAKUWONA DANSON MWASHAKO",
@@ -2179,7 +2161,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MWALE NICHOLAS SCOTT TINDI",
@@ -2189,7 +2171,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MWALYO, JOSHUA MBITHI",
@@ -2199,7 +2181,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MWANGI GEOFFREY WANDETO",
@@ -2209,9 +2191,9 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
-	["HON. MWANGI TERESIA WANJIRU", "", "", "", "", "PRESENT", 1, "NOMINATED MP"],
+	["HON. MWANGI TERESIA WANJIRU", "", "", "", "", "PRESENT", 1, "NOMINATED"],
 	[
 		"HON. MWANYANJE GERTRUDE MBEYU",
 		"",
@@ -2220,7 +2202,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. MWENJE MARK SAMUEL MURIITHI",
@@ -2230,7 +2212,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. MWIRIGI JOHN PAUL",
@@ -2240,7 +2222,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NABII NABWERA DARAJA",
@@ -2250,7 +2232,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NABULINDO, PETER OSCAR",
@@ -2260,7 +2242,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NAICCA JOHNSON MANYA",
@@ -2270,7 +2252,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NAMUAR JOSEPH EMATHE",
@@ -2280,7 +2262,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NANOK, DANIEL EPUYO",
@@ -2290,7 +2272,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NDUNG'U, GEORGE KOIMBURI",
@@ -2300,7 +2282,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NDUYO SUSAN NGUGI",
@@ -2310,7 +2292,7 @@ const mpArray = [
 		"TSP",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. NGANGA ALICE WAMBUI",
@@ -2320,7 +2302,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NGIKOLONG NICHOLAS NGIKOR NIXON",
@@ -2330,7 +2312,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NGITIT, CECILIA ASINYEN",
@@ -2340,7 +2322,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. NGUNA, NGUSYA CHARLES",
@@ -2350,7 +2332,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NGURO ONESMUS NGOGOYO",
@@ -2360,7 +2342,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NG'ELECHEI CAROLINE JEPTOO",
@@ -2370,18 +2352,9 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
-	[
-		"HON. NG'ONGO JOHN MBADI",
-		"",
-		"",
-		"",
-		"ODM",
-		"ABSENT",
-		null,
-		"NOMINATED MP",
-	],
+	["HON. NG'ONGO JOHN MBADI", "", "", "", "ODM", "ABSENT", null, "NOMINATED"],
 	[
 		"HON. NJERU PAMELA NJOKI",
 		"",
@@ -2390,7 +2363,7 @@ const mpArray = [
 		"UDA",
 		"ABSENT",
 		null,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. NJOROGE MARY WAMAUA WAITHIRA",
@@ -2400,7 +2373,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NTUTU KITILAI OLE",
@@ -2410,7 +2383,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NTWIGA PATRICK MUNENE",
@@ -2420,7 +2393,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NYAKUNDI JAPHETH MOKAYA",
@@ -2430,7 +2403,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NYAMAI RACHAEL KAKI",
@@ -2440,7 +2413,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NYAMITA MARK OGOLLA",
@@ -2450,7 +2423,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NYAMOKO, JOASH NYAMACHE",
@@ -2460,7 +2433,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NYENZE EDITH VETHI",
@@ -2470,7 +2443,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NYIKAL WAMBURA JAMES",
@@ -2480,7 +2453,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NYORO, SAMSON NDINDI",
@@ -2490,7 +2463,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NZENGU, PAUL MUSYIMI",
@@ -2500,7 +2473,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. NZIOKA ERASTUS KIVASU",
@@ -2510,7 +2483,7 @@ const mpArray = [
 		"WDM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OBARA EVE AKINYI",
@@ -2520,7 +2493,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OBIRI, INNOCENT MOMANYI",
@@ -2530,7 +2503,7 @@ const mpArray = [
 		"WDM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OBO RUWEIDA MOHAMED",
@@ -2540,7 +2513,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OCHIENG DAVID OUMA",
@@ -2550,7 +2523,7 @@ const mpArray = [
 		"MDG",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ODANGA, GEOFFREY MAKOKHA",
@@ -2560,7 +2533,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ODEGE TOM MBOYA",
@@ -2570,7 +2543,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ODHIAMBO, ELISHA OCHIENG",
@@ -2580,7 +2553,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ODHIAMBO, MILLIE GRACE AKOTH",
@@ -2590,7 +2563,7 @@ const mpArray = [
 		"",
 		"SUSPENDED",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OGOLLA. GIDEON OCHANDA",
@@ -2600,7 +2573,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OKELO, JARED ODOYO",
@@ -2610,7 +2583,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OKUOME ADIPO ANDREW",
@@ -2620,7 +2593,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OLUOCH, ANTHONY TOM",
@@ -2630,7 +2603,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OMANYO, CATHERINE NAKHABI",
@@ -2640,7 +2613,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. OMBAKA ODUOR CHRISTINE",
@@ -2650,7 +2623,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. OMBOKO MILEMBA",
@@ -2660,7 +2633,7 @@ const mpArray = [
 		"",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OMONDI CAROLI",
@@ -2670,7 +2643,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OMWERA GEORGE ALDWA",
@@ -2680,7 +2653,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ONCHOKE CHARLES MAMWACHA",
@@ -2690,7 +2663,7 @@ const mpArray = [
 		"UPA",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ONYIEGO, SILVANUS OSORO",
@@ -2700,7 +2673,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ORERO, PETER OCHIENG",
@@ -2710,7 +2683,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ORON JOSHUA ODONGO",
@@ -2720,7 +2693,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OSERO PATRICK",
@@ -2730,7 +2703,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OSOGO JOYCE ATIENO BENSUDA",
@@ -2740,7 +2713,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. OTUCHO, MARY EMAASE",
@@ -2750,7 +2723,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OUNDO, WILBERFORCE OJIAMBO",
@@ -2760,7 +2733,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OWINO JOHN WALTER",
@@ -2770,7 +2743,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OWINO, MARTIN PETERS",
@@ -2780,7 +2753,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OWUOR, JOSHUA ADUMA",
@@ -2790,7 +2763,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OYOO, JAMES ONYANGO",
@@ -2800,7 +2773,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OYUGI, DICK MAUNGU",
@@ -2810,7 +2783,7 @@ const mpArray = [
 		"DAP-K",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. OYULA, JOSEPH H. MAERO",
@@ -2820,7 +2793,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. PARASHINA SAMUEL SAKIMBA",
@@ -2830,7 +2803,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. PAREYIO MANTAINE AGNES",
@@ -2840,7 +2813,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. PASSARIS ESTHER MUTHONI",
@@ -2850,7 +2823,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. PKOSING, DAVID",
@@ -2860,7 +2833,7 @@ const mpArray = [
 		"KUP",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. RAI SAMUEL GONZI",
@@ -2870,7 +2843,7 @@ const mpArray = [
 		"PAA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. RASSO, COL (RTD) DIDO ALI",
@@ -2880,7 +2853,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. ROBI, MATHIAS NYAMABE",
@@ -2890,7 +2863,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. RUKU GEOFFREY KIRINGA",
@@ -2900,7 +2873,7 @@ const mpArray = [
 		"DP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SALASYA PETER KALERWA",
@@ -2910,7 +2883,7 @@ const mpArray = [
 		"DAP-K",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SALIM FEISAL ABDALLAH BADER",
@@ -2920,7 +2893,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SANEY IBRAHIM ADBI",
@@ -2930,7 +2903,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SANKAIRE LEAH SOPIATO",
@@ -2940,7 +2913,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. SERGON, JEMATIAH FLOWRENCE",
@@ -2950,7 +2923,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. SHAKE MBOGHO PETER",
@@ -2960,7 +2933,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SHEIKH UMUL KER KASSIM",
@@ -2970,7 +2943,7 @@ const mpArray = [
 		"UDM",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. SHIMBWA OMAR MWINYI",
@@ -2980,7 +2953,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SHINALI BERNARD MASAKA",
@@ -2990,7 +2963,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SHURIE ABDI OMAR",
@@ -3000,7 +2973,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SIGEI, FRANCIS KIPYEGON ARAP",
@@ -3010,7 +2983,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SIRMA, MUSA CHERUTICH",
@@ -3020,7 +2993,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SITATI DANIEL WANYAMA",
@@ -3030,7 +3003,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SITIENEI, JANET JEPKEMBOI",
@@ -3040,7 +3013,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SIYOI LILLIAN CHEBET",
@@ -3050,7 +3023,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. SLOYA CLEMENT LOGOVA",
@@ -3060,7 +3033,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SUDI OSCAR KIPCHUMBA",
@@ -3070,18 +3043,9 @@ const mpArray = [
 		"UDA",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
-	[
-		"HON. SULEKA HULBALE HARUN",
-		"",
-		"",
-		"",
-		"UDM",
-		"PRESENT",
-		1,
-		"NOMINATED MP",
-	],
+	["HON. SULEKA HULBALE HARUN", "", "", "", "UDM", "PRESENT", 1, "NOMINATED"],
 	[
 		"HON. SUNKUIYA,  GEORGE RISA",
 		"",
@@ -3090,7 +3054,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. SUNKULI, JULIUS LEKAKENY",
@@ -3100,7 +3064,7 @@ const mpArray = [
 		"KANU",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. TAITAMU JULIUS M�NAIBA",
@@ -3110,7 +3074,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. TANDAZA KASSIM SAWA",
@@ -3120,7 +3084,7 @@ const mpArray = [
 		"ANC",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. THUKU ZACHARY KWENYA",
@@ -3130,7 +3094,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. TONGOYO, GABRIEL KOSHAL",
@@ -3140,7 +3104,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. TONKEI REBECCA NOONAISHI",
@@ -3150,7 +3114,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. TONUI JOSEPH KIPKOSGEI",
@@ -3160,7 +3124,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. TOROITICH TIMOTHY KIPCHUMBA",
@@ -3170,7 +3134,7 @@ const mpArray = [
 		"INDPT",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. TUNGULE CHARO KENNETH KAZUNGU",
@@ -3180,7 +3144,7 @@ const mpArray = [
 		"PAA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WACHIRA,  RAHAB MUKAMI",
@@ -3190,7 +3154,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. WAINAINA ANTHONY NJOROGE",
@@ -3200,7 +3164,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WAINAINA, MICHAEL WAMBUGU",
@@ -3210,7 +3174,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WAITHAKA JOHN MACHUA",
@@ -3220,7 +3184,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WAMACUKURU JAMES GITHUA KAMAU",
@@ -3230,7 +3194,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WAMBILIANGA CATHERINE NANJALA",
@@ -3240,7 +3204,7 @@ const mpArray = [
 		"FORD-K",
 		"PRESENT",
 		-1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. WAMBOKA WANAMI JACK NELSON",
@@ -3250,7 +3214,7 @@ const mpArray = [
 		"DAP-K",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WAMUCHOMBA,  GATHONI",
@@ -3260,7 +3224,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WANDAYI, JAMES OPIYO",
@@ -3270,7 +3234,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WANGAYA CHRISTOPHER ASEKA",
@@ -3280,7 +3244,7 @@ const mpArray = [
 		"ODM",
 		"ABSENT",
 		null,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WANGWE, EMMANUEL",
@@ -3290,7 +3254,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WANJALA RAPHAEL BITTA SAUTI",
@@ -3300,7 +3264,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WANJIKU JOHN NJUGUNA",
@@ -3310,7 +3274,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WANJIRA, MARTHA WANGARI",
@@ -3320,7 +3284,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WANYONYI KEVIN FERDINAND",
@@ -3330,7 +3294,7 @@ const mpArray = [
 		"FORD-K",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WANYONYI MARTIN PEPELA",
@@ -3340,7 +3304,7 @@ const mpArray = [
 		"FORD-K",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WAQO NAOMI JILLO",
@@ -3350,7 +3314,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"WOMAN REPRESENTATIVE",
+		"WOMAN REP",
 	],
 	[
 		"HON. WAWERU, JOHN KIARIE",
@@ -3360,7 +3324,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WERE CHARLES ONG'ONDO",
@@ -3370,7 +3334,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. WETANGULA TIMOTHY WANYONYI",
@@ -3380,7 +3344,7 @@ const mpArray = [
 		"ODM",
 		"PRESENT",
 		0,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. YEGON BRIGHTON LEONARD",
@@ -3390,7 +3354,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. YEGON, RICHARD KIPKEMOI",
@@ -3400,7 +3364,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. YUSSUF, ADAN HAJI",
@@ -3410,7 +3374,7 @@ const mpArray = [
 		"UDM",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON.(CPA) KIMANI FRANCIS KURIA",
@@ -3420,7 +3384,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		-1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON.KARITHO KIILI DANIEL",
@@ -3430,7 +3394,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON.MBIUKI JAPHET MIRITI KAREKE",
@@ -3440,7 +3404,7 @@ const mpArray = [
 		"UDA",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 	[
 		"HON. RINDIKIRI, MUGAMBI MURWITHANIA",
@@ -3450,7 +3414,7 @@ const mpArray = [
 		"JP",
 		"PRESENT",
 		1,
-		"CONSTITUENCY MP",
+		"CONSTITUENCY",
 	],
 ];
 export default mpArray;

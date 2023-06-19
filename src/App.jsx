@@ -15,6 +15,7 @@ const App = () => {
 	const [constituency, setConstituency] = useState("");
 
 	// dropdowns
+	const [status, setStatus] = useState("");
 	const [party, setParty] = useState("");
 	const [county, setCounty] = useState("");
 
@@ -38,7 +39,7 @@ const App = () => {
 		window.addEventListener("resize", handleResize);
 
 		return () => window.removeEventListener("resize", handleResize);
-	}, [name, party, county, constituency, attendance, vote]);
+	}, [name, status, party, county, constituency, attendance, vote]);
 
 	function filterMps(mps) {
 		if (
@@ -55,6 +56,10 @@ const App = () => {
 			mps = mps.filter((item) =>
 				item[0].toLowerCase().includes(name.toLowerCase())
 			);
+		}
+
+		if (status !== "") {
+			mps = mps.filter((item) => item[7] === status);
 		}
 
 		if (party !== "") {
@@ -78,6 +83,7 @@ const App = () => {
 
 	function resetFilters() {
 		setName("");
+		setStatus("");
 		setParty("");
 		setCounty("");
 		setConstituency("");
@@ -101,7 +107,7 @@ const App = () => {
 					verification and will be updated ASAP.
 				</p>
 
-				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-7 md:items-end md:gap-2">
+				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-8 md:items-end md:gap-2">
 					{/* mp name */}
 					<div className="col-start-1 col-end-3">
 						<FormText
@@ -113,7 +119,15 @@ const App = () => {
 
 					{/* dropdowns */}
 					{showFilters && (
-						<div className="grid grid-cols-1 gap-3 md:col-start-4 md:col-end-8 md:grid-cols-4 md:gap-4">
+						<div className="grid grid-cols-1 gap-3 md:col-start-4 md:col-end-9 md:grid-cols-5 md:gap-2">
+							{/* party */}
+							<FormDropdown
+								label="status"
+								options={mps.map((item) => item[7])}
+								value={status}
+								onChange={(e) => setStatus(e.target.value)}
+							></FormDropdown>
+
 							{/* party */}
 							<FormDropdown
 								label="party"
