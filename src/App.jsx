@@ -112,27 +112,53 @@ const App = () => {
 
 	return (
 		<section className="page-section flex flex-col">
-			<header className="mb-4 bg-slate-900 px-6 pb-6 pt-8 md:mb-8 md:px-8 md:pb-8">
-				<h1 className="mb-5 font-sans text-3xl text-white">
-					Finance Bill 2023 Votes
+			<header className="mb-4 bg-slate-900 px-6 pb-6 pt-8 md:mb-8 md:px-8 md:pb-8 ">
+				<h1 className="mb-8 text-center font-sans text-3xl text-white ">
+					Finance bill votes
 				</h1>
 
-				<p className="mb-5 max-w-prose text-base text-gray-400">
+				<div className="toggle-wrapper after:content-['12th Reading'] relative mx-auto mb-4 flex w-full flex-row items-center gap-1.5 rounded-lg bg-[#141f39] p-1 transition-all after:absolute after:left-1 after:top-1 after:z-0 after:h-[calc(100%-8px)] after:w-[calc(50%-6px)] after:rounded-md after:bg-slate-800 after:px-4 after:py-2 after:duration-200 md:mb-8 md:w-96">
+					<button
+						style={{ WebkitTapHighlightColor: "transparent" }}
+						className="z-10 w-1/2 rounded-md px-8 py-2 text-center text-sm font-medium text-white focus:outline-none"
+						onClick={() =>
+							document
+								.querySelector(".toggle-wrapper")
+								.classList.remove("after:translate-x-[calc(100%+4px)]")
+						}
+					>
+						2nd Reading
+					</button>
+					<button
+						style={{ WebkitTapHighlightColor: "transparent" }}
+						className="z-10 w-1/2 rounded-md px-8 py-2 text-center text-sm font-medium text-white focus:outline-none"
+						onClick={() =>
+							document
+								.querySelector(".toggle-wrapper")
+								.classList.add("after:translate-x-[calc(100%+4px)]")
+						}
+					>
+						3rd Reading
+					</button>
+				</div>
+				<p className="mx-auto mb-4 max-w-prose text-base text-gray-400 md:mb-12 md:text-center">
 					These are the votes by the members of the 13th Parliament of Kenya on
 					the 14th of June 2023 regarding the finance bill. The bill passed its
 					second reading by 176 votes to 81. Some of the votes are still pending
-					verification and will be updated ASAP.
+					verification and will be updated as soon as possible.
 				</p>
 
 				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-8 md:items-end md:gap-2">
 					{/* mp name */}
-					<div className="col-start-1 col-end-3">
-						<FormText
-							label="mp name"
-							value={name}
-							onChange={(e) => setName(e.target.value)}
-						></FormText>
-					</div>
+					{showFilters && (
+						<div className="col-start-1 col-end-3">
+							<FormText
+								label="mp name"
+								value={name}
+								onChange={(e) => setName(e.target.value)}
+							></FormText>
+						</div>
+					)}
 
 					{/* dropdowns */}
 					{showFilters && (
@@ -181,7 +207,7 @@ const App = () => {
 
 					{/* toggle filters */}
 					<button
-						className="col-start-1 col-end-3 mt-0 rounded-lg bg-slate-800 p-2 text-sm text-white md:hidden"
+						className="col-start-1 col-end-3 mt-0 rounded-lg bg-slate-800 p-2.5 text-sm text-white md:hidden"
 						onClick={(e) => {
 							e.preventDefault();
 							setShowFilters(!showFilters);
