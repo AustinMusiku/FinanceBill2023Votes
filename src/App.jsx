@@ -33,14 +33,6 @@ const App = () => {
 
 	useEffect(() => {
 		setFilteredMps(filterMps(mps));
-
-		function handleResize() {
-			setShowFilters(window.innerWidth > 768);
-		}
-
-		window.addEventListener("resize", handleResize);
-
-		return () => window.removeEventListener("resize", handleResize);
 	}, [name, status, party, county, constituency, attendance, vote]);
 
 	function filterMps(mps) {
