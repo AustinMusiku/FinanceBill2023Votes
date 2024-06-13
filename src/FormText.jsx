@@ -15,7 +15,7 @@ const FormText = ({ value, onChange }) => {
 				type="text"
 				className="block w-full border-0 bg-[#141f39] py-0 pl-0 text-sm text-gray-200 outline-none placeholder:text-gray-400 focus:ring-0"
 				value={value}
-				placeholder="Search by mp's name"
+				placeholder="name"
 				onChange={onChange}
 			/>
 		</div>

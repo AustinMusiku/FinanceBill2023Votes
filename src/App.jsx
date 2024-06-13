@@ -21,7 +21,7 @@ const App = () => {
 
 	// checkboxes
 	const [attendance, setAttendance] = useState("");
-	const [vote, setVote] = useState(null);
+	const [vote, setVote] = useState("");
 
 	const [filteredMps, setFilteredMps] = useState([]);
 
@@ -52,6 +52,7 @@ const App = () => {
 			);
 		}
 
+		// filter by status
 		if (status !== "") {
 			// disable constituency dropdown #constituency
 			if (status === "CONSTITUENCY" || status === "") {
@@ -63,14 +64,17 @@ const App = () => {
 			mps = mps.filter((item) => item[7] === status);
 		}
 
+		// filter by party
 		if (party !== "") {
 			mps = mps.filter((item) => item[4] === party);
 		}
 
+		// filter by county
 		if (county !== "") {
 			mps = mps.filter((item) => item[2] === county);
 		}
 
+		// filter by constituency
 		if (constituency !== "") {
 			if (
 				county !== "" &&
@@ -83,8 +87,17 @@ const App = () => {
 			}
 		}
 
+		// filter by attendance
 		if (attendance !== "") {
 			mps = mps.filter((item) => item[5] === attendance);
+		}
+
+		// filter by vote
+		if (vote !== "") {
+			mps = mps.filter((item) => {
+				let voteAsDigit = vote === "YES" ? 1 : 0;
+				return item[6] === voteAsDigit;
+			});
 		}
 
 		return mps;
@@ -97,7 +110,7 @@ const App = () => {
 		setCounty("");
 		setConstituency("");
 		setAttendance(null);
-		setVote(null);
+		setVote("");
 		setAttendance("");
 		setFilteredMps(mps);
 	}
@@ -112,13 +125,20 @@ const App = () => {
 				<p className="mb-5 max-w-prose text-base text-gray-400">
 					These are the votes by the members of the 13th Parliament of Kenya on
 					the 14th of June 2023 regarding the finance bill. The bill passed its
-					second reading by 176 votes to 81. Some of the votes are still pending
-					verification and will be updated ASAP.
+					second reading by 176 votes to 81. The votes marked as N/A are those
+					that were not available at the time.
 				</p>
 
 				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-8 md:items-end md:gap-2">
 					{/* mp name */}
 					<div className="col-start-1 col-end-3">
+						{/* label */}
+						<label
+							htmlFor="name"
+							className="ml-1 text-sm text-white md:text-xs"
+						>
+							Search by mp's name
+						</label>
 						<FormText
 							label="mp name"
 							value={name}
@@ -128,7 +148,7 @@ const App = () => {
 
 					{/* dropdowns */}
 					{showFilters && (
-						<div className="grid grid-cols-1 gap-3 md:col-start-4 md:col-end-9 md:grid-cols-5 md:gap-2">
+						<div className="grid grid-cols-1 gap-3 md:col-start-3 md:col-end-9 md:grid-cols-6 md:gap-2">
 							{/* party */}
 							<FormDropdown
 								label="status"
@@ -167,6 +187,14 @@ const App = () => {
 								options={mps.map((item) => item[5])}
 								value={attendance}
 								onChange={(e) => setAttendance(e.target.value)}
+							></FormDropdown>
+
+							{/* vote */}
+							<FormDropdown
+								label="vote"
+								options={["NO", "YES"]}
+								value={vote}
+								onChange={(e) => setVote(e.target.value)}
 							></FormDropdown>
 						</div>
 					)}
