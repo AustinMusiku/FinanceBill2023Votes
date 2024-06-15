@@ -125,8 +125,7 @@ const App = () => {
 				<p className="mb-5 max-w-prose text-base text-gray-400">
 					These are the votes by the members of the 13th Parliament of Kenya on
 					the 14th of June 2023 regarding the finance bill. The bill passed its
-					second reading by 176 votes to 81. The votes marked as N/A are those
-					that were not available at the time.
+					second reading by 176 votes to 81.
 				</p>
 
 				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-8 md:items-end md:gap-2">
