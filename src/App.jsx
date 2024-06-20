@@ -15,7 +15,7 @@ const App = () => {
 	const [constituency, setConstituency] = useState("");
 
 	// dropdowns
-	const [status, setStatus] = useState("");
+	const [category, setCategory] = useState("");
 	const [party, setParty] = useState("");
 	const [county, setCounty] = useState("");
 
@@ -33,11 +33,12 @@ const App = () => {
 
 	useEffect(() => {
 		setFilteredMps(filterMps(mps));
-	}, [name, status, party, county, constituency, attendance, vote]);
+	}, [name, category, party, county, constituency, attendance, vote]);
 
 	function filterMps(mps) {
 		if (
 			name === "" &&
+			category === "" &&
 			party === "" &&
 			county === "" &&
 			constituency === "" &&
@@ -46,32 +47,33 @@ const App = () => {
 		)
 			return mps;
 
+		// filter by name
 		if (name !== "") {
-			mps = mps.filter((item) =>
-				item[0].toLowerCase().includes(name.toLowerCase())
+			mps = mps.filter((mp) =>
+				mp.name.toLowerCase().includes(name.toLowerCase())
 			);
 		}
 
-		// filter by status
-		if (status !== "") {
+		// filter by category
+		if (category !== "") {
 			// disable constituency dropdown #constituency
-			if (status === "CONSTITUENCY" || status === "") {
+			if (category === "CONSTITUENCY" || category === "") {
 				document.getElementById("constituency").disabled = false;
 			} else {
 				setConstituency("");
 				document.getElementById("constituency").disabled = true;
 			}
-			mps = mps.filter((item) => item[7] === status);
+			mps = mps.filter((mp) => mp.category === category);
 		}
 
 		// filter by party
 		if (party !== "") {
-			mps = mps.filter((item) => item[4] === party);
+			mps = mps.filter((mp) => mp.party === party);
 		}
 
 		// filter by county
 		if (county !== "") {
-			mps = mps.filter((item) => item[2] === county);
+			mps = mps.filter((mp) => mp.county === county);
 		}
 
 		// filter by constituency
@@ -83,20 +85,21 @@ const App = () => {
 				mps = mps.filter((item) => item[2] === county);
 				setConstituency("");
 			} else {
-				mps = mps.filter((item) => item[3] === constituency);
+				mps = mps.filter((mp) => mp.constituency === constituency);
 			}
 		}
 
 		// filter by attendance
 		if (attendance !== "") {
-			mps = mps.filter((item) => item[5] === attendance);
+			mps = mps.filter((mp) => mp.attendance === attendance);
 		}
 
 		// filter by vote
 		if (vote !== "") {
-			mps = mps.filter((item) => {
+			mps = mps.filter((mp) => {
+				// TODO: allow forwards compatibility with 2024 votes
 				let voteAsDigit = vote === "YES" ? 1 : 0;
-				return item[6] === voteAsDigit;
+				return mp["2023"] === voteAsDigit;
 			});
 		}
 
@@ -105,7 +108,7 @@ const App = () => {
 
 	function resetFilters() {
 		setName("");
-		setStatus("");
+		setCategory("");
 		setParty("");
 		setCounty("");
 		setConstituency("");
@@ -148,18 +151,18 @@ const App = () => {
 					{/* dropdowns */}
 					{showFilters && (
 						<div className="grid grid-cols-1 gap-3 md:col-start-3 md:col-end-9 md:grid-cols-6 md:gap-2">
-							{/* party */}
+							{/* category */}
 							<FormDropdown
-								label="status"
-								options={mps.map((item) => item[7])}
-								value={status}
-								onChange={(e) => setStatus(e.target.value)}
+								label="category"
+								options={mps.map((mp) => mp.category)}
+								value={category}
+								onChange={(e) => setCategory(e.target.value)}
 							></FormDropdown>
 
 							{/* party */}
 							<FormDropdown
 								label="party"
-								options={mps.map((item) => item[4])}
+								options={mps.map((mp) => mp.party)}
 								value={party}
 								onChange={(e) => setParty(e.target.value)}
 							></FormDropdown>
@@ -167,7 +170,7 @@ const App = () => {
 							{/* county */}
 							<FormDropdown
 								label="county"
-								options={mps.map((item) => item[2])}
+								options={mps.map((mp) => mp.county)}
 								value={county}
 								onChange={(e) => setCounty(e.target.value)}
 							></FormDropdown>
@@ -183,7 +186,7 @@ const App = () => {
 							{/* attendance */}
 							<FormDropdown
 								label="attendance"
-								options={mps.map((item) => item[5])}
+								options={mps.map((mp) => mp.attendance)}
 								value={attendance}
 								onChange={(e) => setAttendance(e.target.value)}
 							></FormDropdown>
