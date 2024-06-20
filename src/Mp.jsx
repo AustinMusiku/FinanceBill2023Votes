@@ -7,7 +7,7 @@ const Mp = ({
 	party,
 	attendance,
 	vote,
-	status,
+	category,
 }) => {
 	return (
 		<li className="text-underline flex w-full flex-row items-center gap-2 border-b-[1px] border-slate-200 py-4">
@@ -20,7 +20,7 @@ const Mp = ({
 
 			<div className="flex basis-1/2 flex-row justify-between md:basis-[65%]">
 				<p className="hidden basis-1/4  text-center text-sm md:inline-block">
-					{status === "" ? "-" : status}
+					{category === "" ? "-" : category}
 				</p>
 
 				<p className="hidden basis-1/4  text-center text-sm md:inline-block">
