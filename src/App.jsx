@@ -6,6 +6,7 @@ import mpArray from "./mps";
 import FormDropdown from "./FormDropdown";
 import FormText from "./FormText";
 import MyFooter from "./MyFooter";
+import YearToggle from "./YearToggle";
 
 const App = () => {
 	const [showFilters, setShowFilters] = useState(window.innerWidth > 768);
@@ -22,6 +23,7 @@ const App = () => {
 	// checkboxes
 	const [attendance, setAttendance] = useState("");
 	const [vote, setVote] = useState("");
+	const [year, setYear] = useState("2023");
 
 	const [filteredMps, setFilteredMps] = useState([]);
 
@@ -33,7 +35,7 @@ const App = () => {
 
 	useEffect(() => {
 		setFilteredMps(filterMps(mps));
-	}, [name, category, party, county, constituency, attendance, vote]);
+	}, [name, category, party, county, constituency, attendance, vote, year]);
 
 	function filterMps(mps) {
 		if (
@@ -91,7 +93,7 @@ const App = () => {
 
 		// filter by attendance
 		if (attendance !== "") {
-			mps = mps.filter((mp) => mp.attendance === attendance);
+			mps = mps.filter((mp) => mp.votes[year].attendance === attendance);
 		}
 
 		// filter by vote
@@ -99,7 +101,7 @@ const App = () => {
 			mps = mps.filter((mp) => {
 				// TODO: allow forwards compatibility with 2024 votes
 				let voteAsDigit = vote === "YES" ? 1 : 0;
-				return mp["2023"] === voteAsDigit;
+				return mp.votes[year].vote === voteAsDigit;
 			});
 		}
 
@@ -116,33 +118,23 @@ const App = () => {
 		setVote("");
 		setAttendance("");
 		setFilteredMps(mps);
+		setYear("2023");
 	}
 
 	return (
 		<section className="page-section flex flex-col">
 			<header className="mb-4 bg-slate-900 px-6 pb-6 pt-8 md:mb-8 md:px-8 md:pb-8">
-				<h1 className="mb-5 font-sans text-3xl text-white">
-					Finance Bill 2023 Votes
+				<h1 className="mb-5 font-sans text-2xl text-white md:text-3xl">
+					Kenya Kwanza Finance Bills
 				</h1>
-
-				<p className="mb-5 max-w-prose text-base text-gray-400">
-					These are the votes by the members of the 13th Parliament of Kenya on
-					the 14th of June 2023 regarding the finance bill. The bill passed its
-					second reading by 176 votes to 81.
-				</p>
+				{/* toggle year switch */}
+				{!showFilters && <YearToggle setYear={setYear} />}
 
 				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-8 md:items-end md:gap-2">
 					{/* mp name */}
 					<div className="col-start-1 col-end-3">
-						{/* label */}
-						<label
-							htmlFor="name"
-							className="ml-1 text-sm text-white md:text-xs"
-						>
-							Search by mp's name
-						</label>
 						<FormText
-							label="mp name"
+							label="name"
 							value={name}
 							onChange={(e) => setName(e.target.value)}
 						></FormText>
@@ -151,6 +143,16 @@ const App = () => {
 					{/* dropdowns */}
 					{showFilters && (
 						<div className="grid grid-cols-1 gap-3 md:col-start-3 md:col-end-9 md:grid-cols-6 md:gap-2">
+							{/* year */}
+							<FormDropdown
+								className="hidden md:inline-block"
+								label="year"
+								options={["2023", "2024"]}
+								value={year}
+								onChange={(e) => setYear(e.target.value)}
+								disableAll={true}
+							></FormDropdown>
+
 							{/* category */}
 							<FormDropdown
 								label="category"
@@ -183,14 +185,6 @@ const App = () => {
 								onChange={(e) => setConstituency(e.target.value)}
 							></FormDropdown>
 
-							{/* attendance */}
-							<FormDropdown
-								label="attendance"
-								options={mps.map((mp) => mp.attendance)}
-								value={attendance}
-								onChange={(e) => setAttendance(e.target.value)}
-							></FormDropdown>
-
 							{/* vote */}
 							<FormDropdown
 								label="vote"
@@ -203,7 +197,7 @@ const App = () => {
 
 					{/* toggle filters */}
 					<button
-						className="col-start-1 col-end-3 mt-0 rounded-lg bg-slate-800 p-2 text-sm text-white md:hidden"
+						className="col-start-1 col-end-3 mt-0 rounded-lg bg-gray-100 p-2.5 text-sm font-semibold text-slate-800 md:hidden"
 						onClick={(e) => {
 							e.preventDefault();
 							setShowFilters(!showFilters);
@@ -229,7 +223,7 @@ const App = () => {
 						</button>
 					</div>
 				) : (
-					<Mps mps={filteredMps} />
+					<Mps mps={filteredMps} year={year} />
 				)}
 			</section>
 

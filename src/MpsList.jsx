@@ -1,6 +1,6 @@
 import Mp from "./Mp";
 
-const MpsList = ({ mps }) => {
+const MpsList = ({ mps, year }) => {
 	let mpsList = mps.map((mp, idx) => {
 		return (
 			<Mp
@@ -11,8 +11,8 @@ const MpsList = ({ mps }) => {
 				county={mp.county}
 				constituency={mp.constituency}
 				party={mp.party}
-				attendance={mp.attendance ?? true}
-				vote={mp["2023"] ?? true}
+				attendance={mp.votes[year].attendance ?? true}
+				vote={mp.votes[year].vote ?? true}
 				category={mp.category ?? ""}
 			/>
 		);
@@ -29,7 +29,7 @@ const MpsList = ({ mps }) => {
 						Name
 					</p>
 
-					<div className="flex basis-1/2 flex-row justify-between md:basis-[65%]">
+					<div className="flex basis-[10%] flex-row justify-between md:basis-[65%]">
 						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
 							Category
 						</p>
@@ -39,11 +39,13 @@ const MpsList = ({ mps }) => {
 						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
 							Constituency
 						</p>
-						<p className="basis-1/12 text-center text-sm font-bold">Party</p>
-						<p className="basis-1/4 text-center text-sm font-bold">
+						<p className="hidden basis-1/12 text-center text-sm font-bold md:inline-block">
+							Party
+						</p>
+						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
 							Attendance
 						</p>
-						<p className="text-righ basis-1/12 text-center text-sm font-bold">
+						<p className="basis-1/12 text-right text-sm font-bold md:text-center">
 							Vote
 						</p>
 					</div>
