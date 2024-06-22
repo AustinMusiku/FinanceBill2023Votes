@@ -197,7 +197,7 @@ const App = () => {
 
 					{/* toggle filters */}
 					<button
-						className="col-start-1 col-end-3 mt-0 rounded-lg bg-slate-800 p-2.5 text-sm text-white md:hidden"
+						className="col-start-1 col-end-3 mt-0 rounded-lg bg-gray-100 p-2.5 text-sm font-semibold text-slate-800 md:hidden"
 						onClick={(e) => {
 							e.preventDefault();
 							setShowFilters(!showFilters);
