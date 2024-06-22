@@ -1,6 +1,6 @@
 import Mp from "./Mp";
 
-const MpsList = ({ mps }) => {
+const MpsList = ({ mps, year }) => {
 	let mpsList = mps.map((mp, idx) => {
 		return (
 			<Mp
@@ -11,8 +11,8 @@ const MpsList = ({ mps }) => {
 				county={mp.county}
 				constituency={mp.constituency}
 				party={mp.party}
-				attendance={mp.attendance ?? true}
-				vote={mp["2023"] ?? true}
+				attendance={mp.votes[year].attendance ?? true}
+				vote={mp.votes[year].vote ?? true}
 				category={mp.category ?? ""}
 			/>
 		);

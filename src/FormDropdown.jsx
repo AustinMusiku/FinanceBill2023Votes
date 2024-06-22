@@ -1,4 +1,4 @@
-const FormDropdown = ({ label, options, value, onChange }) => {
+const FormDropdown = ({ label, options, value, onChange, disableAll }) => {
 	return (
 		<div className="input-container flex flex-col items-start gap-1">
 			<label
@@ -13,7 +13,7 @@ const FormDropdown = ({ label, options, value, onChange }) => {
 				value={value}
 				onChange={onChange}
 			>
-				<option value="">All</option>
+				{!disableAll && <option value="">All</option>}
 				{options
 					.filter(
 						(value, index, self) =>
