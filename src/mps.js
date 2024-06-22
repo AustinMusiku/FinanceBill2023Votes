@@ -170,7 +170,7 @@ const mpArray = [
 		},
 	},
 	{
-		name: "ABDIRAHMAN HUSSEINWEYTAN MOHAMED",
+		name: "HUSSEINWEYTAN MOHAMED",
 		county: "MANDERA",
 		constituency: "MANDERA EAST",
 		party: "ODM",

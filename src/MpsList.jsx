@@ -29,7 +29,7 @@ const MpsList = ({ mps, year }) => {
 						Name
 					</p>
 
-					<div className="flex basis-1/2 flex-row justify-between md:basis-[65%]">
+					<div className="flex basis-[10%] flex-row justify-between md:basis-[65%]">
 						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
 							Category
 						</p>
@@ -39,8 +39,10 @@ const MpsList = ({ mps, year }) => {
 						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
 							Constituency
 						</p>
-						<p className="basis-1/12 text-center text-sm font-bold">Party</p>
-						<p className="basis-1/4 text-center text-sm font-bold">
+						<p className="hidden basis-1/12 text-center text-sm font-bold md:inline-block">
+							Party
+						</p>
+						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
 							Attendance
 						</p>
 						<p className="text-righ basis-1/12 text-center text-sm font-bold">
