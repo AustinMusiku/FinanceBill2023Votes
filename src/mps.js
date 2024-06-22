@@ -1,3144 +1,5936 @@
 const mpArray = [
 	{
-		2023: 1,
 		name: "MEJJADONK  BENJAMIN GATHIRU",
 		county: "NAIROBI",
 		constituency: "EMBAKASI CENTRAL",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "LANGAT BENJAMIN KIPKIRUI",
 		county: "KERICHO",
 		constituency: "AINAMOI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "GICHUKI EDWIN MUGO",
 		county: "MURANG'A",
 		constituency: "MATHIOYA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "JACKSON KIPKEMOI KOSGEI",
 		county: "",
 		constituency: "",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "PUKOSE ROBERT",
 		county: "TRANS-NZOIA",
 		constituency: "ENDEBESS",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "NZAMBIA KITHUA THUDDEUS",
 		county: "MAKUENI",
 		constituency: "KILOME",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ABDI ALI ABDI",
 		county: "GARISSA",
 		constituency: "IJARA",
 		party: "NAP-K",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "ABDI KHAMIS CHOME",
 		county: "TAITA TAVETA",
 		constituency: "VOI",
 		party: "WDM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: null,
+				attendance: null,
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ABDI YUSUF HASSAN",
 		county: "NAIROBI",
 		constituency: "KAMUKUNJI",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ABDIRAHMAN MOHAMED ABDI",
 		county: "MANDERA",
 		constituency: "LAFEY",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "ABDIRAHMAN HUSSEINWEYTAN MOHAMED",
 		county: "MANDERA",
 		constituency: "MANDERA EAST",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ABDULLAHI AMINA DIKA",
 		county: "TANA RIVER",
 		constituency: "TANA RIVER",
 		party: "KANU",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ABDULLAIH BASHIR SHEIKH",
 		county: "MANDERA",
 		constituency: "MANDERA NORTH",
 		party: "UDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ABUBAKAR TALIB AHMED",
 		county: "",
 		constituency: "",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "ABUOR PAUL",
 		county: "MIGORI",
 		constituency: "RONGO",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "ABURI DONYA DORICE",
 		county: "KISII",
 		constituency: "KISII",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ABURI LAWRENCE MPURU",
 		county: "MERU",
 		constituency: "TIGANIA EAST",
 		party: "NOPEU",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ADAGALA BEATRICE KAHAI",
 		county: "VIHIGA",
 		constituency: "VIHIGA",
 		party: "ANC",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "ADHE WARIO GUYO",
 		county: "MARSABIT",
 		constituency: "NORTH HORR",
 		party: "KANU",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ADOW ADEN MOHAMMED",
 		county: "WAJIR",
 		constituency: "WAJIR SOUTH",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "AHMED SHAKEEL AHMED SHABBIR",
 		county: "KISUMU",
 		constituency: "KISUMU EAST",
 		party: "INDPT",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "AKUJAH PROTUS EWESIT",
 		county: "TURKANA",
 		constituency: "LOIMA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ALFAH ONDIEKI MIRUKA",
 		county: "KISII",
 		constituency: "BOMACHOGE CHACHE",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ALI ABDISIRAT KHALIF",
 		county: "",
 		constituency: "",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "AMOLLO PAUL OTIENDE",
 		county: "SIAYA",
 		constituency: "RARIEDA",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ARAMA SAMUEL",
 		county: "NAKURU",
 		constituency: "NAKURU TOWN WEST",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "ARIKO JOHN NAMOIT",
 		county: "TURKANA",
 		constituency: "TURKANA SOUTH",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "ATANDI SAMUEL ONUNGA",
 		county: "SIAYA",
 		constituency: "ALEGO USONGA",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "BABU OWINO PAUL ONGILI",
 		county: "NAIROBI",
 		constituency: "EMBAKASI EAST",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "BADY BADY TWALIB",
 		county: "MOMBASA",
 		constituency: "JOMVU",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "BARASA PATRICK SIMIYU",
 		county: "TRANS-NZOIA",
 		constituency: "CHERANGANY",
 		party: "DAP-K",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "BARONGO NOLFASON OBADIAH",
 		county: "KISII",
 		constituency: "BOMACHOGE BORABU",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "BARRE HUSSEIN ABDI",
 		county: "WAJIR",
 		constituency: "TARBAJ",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "BARTOO PHYLIS JEPKEMOI",
 		county: "UASIN GISHU",
 		constituency: "MOIBEN",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "BASIL ROBERT NGUI",
 		county: "MACHAKOS",
 		constituency: "YATTA",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "BAYA OWEN YAA",
 		county: "KILIFI",
 		constituency: "KILIFI NORTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "BEDZIMBA RASHID JUMA",
 		county: "MOMBASA",
 		constituency: "KISAUNI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "BIDU MOHAMED TUBI",
 		county: "ISIOLO",
 		constituency: "ISIOLO SOUTH",
 		party: "JP",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "BIEGO PAUL KIBICHIY",
 		county: "NANDI",
 		constituency: "CHESUMEI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "BISAU MAURICE KAKAI",
 		county: "TRANS-NZOIA",
 		constituency: "KIMININI",
 		party: "DAP-K",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "BONAYA MUMINA GOLLO",
 		county: "ISIOLO",
 		constituency: "ISIOLO",
 		party: "JP",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "BOSS GLADYS JEPKOSGEI",
 		county: "UASIN GISHU",
 		constituency: "UASIN GISHU",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "BOWEN DAVID KANGOGO",
 		county: "ELGEYO-MARAKWET",
 		constituency: "MARAKWET EAST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "BUSIA RUTH ADHIAMBO ODINGA",
 		county: "KISUMU",
 		constituency: "KISUMU",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "BUYU ROZAAH AKINYI",
 		county: "KISUMU",
 		constituency: "KISUMU WEST",
 		party: "ODM",
-		attendance: "SUSPENDED",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "SUSPENDED",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "BWIRE JOHN OKANO",
 		county: "TAITA TAVETA",
 		constituency: "TAVETA",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHEBOR PAUL KIBET",
 		county: "NAKURU",
 		constituency: "RONGAI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHEGE JOHN KIRAGU",
 		county: "KIAMBU",
 		constituency: "LIMURU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHEGE NJUGUNA",
 		county: "MURANG'A",
 		constituency: "KANDARA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "CHEGE SABINA WANJIRU",
 		county: "",
 		constituency: "",
 		party: "JP",
-		attendance: "SUSPENDED",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "SUSPENDED",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHELULE LIZA CHEPKORIR",
 		county: "NAKURU",
 		constituency: "NAKURU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHEPKONGA SAMUEL KIPRONO",
 		county: "UASIN GISHU",
 		constituency: "AINABKOI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHEPKORIR LINET",
 		county: "BOMET",
 		constituency: "BOMET",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHEPKWONY  CHARITY KATHAMBI",
 		county: "NAKURU",
 		constituency: "NJORO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHEROROT JOSEPH KIMUTAI",
 		county: "KERICHO",
 		constituency: "KIPKELION EAST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHESEBE FRED KAPONDI",
 		county: "BUNGOMA",
 		constituency: "MT. ELGON",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHIFOROMODO MANGALE MUNGA",
 		county: "KWALE",
 		constituency: "LUNGA LUNGA",
 		party: "UDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "CHIKATI JOHN MURUMBA",
 		county: "BUNGOMA",
 		constituency: "TONGAREN",
 		party: "FORD-K",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "CHUMEL MOROTO SAMUEL",
 		county: "WEST POKOT",
 		constituency: "KAPENGURIA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "CPA RUTTO JULIUS KIPLETTING",
 		county: "UASIN GISHU",
 		constituency: "KESSES",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "DAWOOD ABDUL RAHIM",
 		county: "MERU",
 		constituency: "NORTH IMENTI",
 		party: "INDPT",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "DENA JOSEPH HAMISI",
 		county: "",
 		constituency: "",
 		party: "ANC",
-		attendance: "PRESENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "EKWOM NABUIN",
 		county: "TURKANA",
 		constituency: "TURKANA NORTH",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "ELACHI BEATRICE KADEVERESIA",
 		county: "NAIROBI",
 		constituency: "DAGORETTI NORTH",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "FARAH SALAH YAKUB",
 		county: "GARISSA",
 		constituency: "FAFI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "FARAH YUSSUF MOHAMED",
 		county: "WAJIR",
 		constituency: "WAJIR WEST",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "GACHAGUA GEORGE",
 		county: "NYANDARUA",
 		constituency: "NDARAGWA",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "GACHOBE SAMUEL KINUTHIA",
 		county: "NAKURU",
 		constituency: "SUBUKIA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "GAKUYA JAMES MWANGI",
 		county: "NAIROBI",
 		constituency: "EMBAKASI NORTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "GIDEON KIMAIYO",
 		county: "ELGEYO-MARAKWET",
 		constituency: "KEIYO SOUTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "GIKARIA DAVID",
 		county: "NAKURU",
 		constituency: "NAKURU TOWN EAST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "GIMOSE CHARLES GUMINI",
 		county: "VIHIGA",
 		constituency: "HAMISI",
 		party: "ANC",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "GISAIRO CLIVE OMBANE",
 		county: "NYAMIRA",
 		constituency: "KITUTU MASABA",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "GITARI JOSEPH GACHOKI",
 		county: "KIRINYAGA",
 		constituency: "KIRINYAGA CENTRAL",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "GITAU FAITH WAIRIMU",
 		county: "NYANDARUA",
 		constituency: "NYANDARUA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "GITHINJI ROBERT GICHIMU",
 		county: "KIRINYAGA",
 		constituency: "GICHUGU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "GOGO LILIAN ACHIENG",
 		county: "HOMA BAY",
 		constituency: "RANGWE",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "GUYO ALI WARIO",
 		county: "TANA RIVER",
 		constituency: "GARSEN",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "HAMISI KAKUTA MAIMAI",
 		county: "KAJIADO",
 		constituency: "KAJIADO EAST",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "HARO ABDUL EBRAHIM",
 		county: "MANDERA",
 		constituency: "MANDERA SOUTH",
 		party: "UDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "HASSAN KULOW MAALIM",
 		county: "MANDERA",
 		constituency: "BANISSA",
 		party: "UDM",
-		attendance: "VACATED",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "VACATED",
+			},
+			2024: {
+				vote: null,
+				attendance: "VACATED",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "HIRIBAE SAID BUYA",
 		county: "TANA RIVER",
 		constituency: "GALOLE",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ICHUNG'WAH ANTONY KIMANI",
 		county: "KIAMBU",
 		constituency: "KIKUYU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "IKANA FREDRICK LUSULI",
 		county: "KAKAMEGA",
 		constituency: "SHINYALU",
 		party: "ANC",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "IKIARA DOROTHY MUTHONI",
 		county: "",
 		constituency: "",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "INJENDI MOSES MALULU",
 		county: "KAKAMEGA",
 		constituency: "MALAVA",
 		party: "ANC",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ITHINJI SHADRACK MWITI",
 		county: "MERU",
 		constituency: "SOUTH IMENTI",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "JALDESA GUYO WAQO",
 		county: "MARSABIT",
 		constituency: "MOYALE",
 		party: "UPIA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: null,
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "JEHOW FATUMA ABDI",
 		county: "WAJIR",
 		constituency: "WAJIR",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: null,
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "JHANDA ZAHEER",
 		county: "KISII",
 		constituency: "NYARIBARI CHACHE",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "JOSEPH WAINAINA IRAYA",
 		county: "",
 		constituency: "",
 		party: "",
-		attendance: "PRESENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "JUNET MOHAMED",
 		county: "MIGORI",
 		constituency: "SUNA EAST",
 		party: "",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KAGESI ERNEST OGESI KIVAI",
 		county: "VIHIGA",
 		constituency: "VIHIGA",
 		party: "ANC",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KAGIRI JANE WANGECHI",
 		county: "LAIKIPIA",
 		constituency: "LAIKIPIA",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KAGOMBE GABRIEL GATHUKA",
 		county: "KIAMBU",
 		constituency: "GATUNDU SOUTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KAGUCHIA JOHN PHILIP GICHOHI",
 		county: "NYERI",
 		constituency: "MUKURWEINI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KAHANGARA JOSEPH MBURU",
 		county: "KIAMBU",
 		constituency: "LARI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KAHUGU ERIC MWANGI",
 		county: "NYERI",
 		constituency: "MATHIRA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KAILEMIA ELIZABETH KARAMBU",
 		county: "MERU",
 		constituency: "MERU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KAJWANG' FRANCIS TOM JOSEPH",
 		county: "NAIROBI",
 		constituency: "RUARAKA",
 		party: "ODM",
-		attendance: "SUSPENDED",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "SUSPENDED",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "KALUMA GEORGE PETER OPONDO",
 		county: "HOMA BAY",
 		constituency: "HOMA BAY TOWN",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "KAMENE JOYCE",
 		county: "MACHAKOS",
 		constituency: "MACHAKOS",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KAMKET KASSAIT WILLIAM",
 		county: "BARINGO",
 		constituency: "TIATY",
 		party: "KANU",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KAMUREN CHARLES",
 		county: "BARINGO",
 		constituency: "BARINGO SOUTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "KANCHORY ELIJAH MEMUSI",
 		county: "KAJIADO",
 		constituency: "KAJIADO CENTRAL",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KANDIE JOSHUA CHEPYEGON",
 		county: "BARINGO",
 		constituency: "BARINGO CENTRAL",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KARANI STEPHEN WACHIRA",
 		county: "LAIKIPIA",
 		constituency: "LAIKIPIA WEST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KARAURI RONALD KAMWIKO",
 		county: "NAIROBI",
 		constituency: "KASARANI",
 		party: "INDPT",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KAREMBA ERIC MUCHANGI.N.",
 		county: "EMBU",
 		constituency: "RUNYENJES",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KARIUKI GEORGE MACHARIA",
 		county: "KIRINYAGA",
 		constituency: "NDIA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KASALU IRENE MUTHONI",
 		county: "KITUI",
 		constituency: "KITUI",
 		party: "WDM",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KASIWAI RAEL KASIWAI",
 		county: "WEST POKOT",
 		constituency: "WEST POKOT",
 		party: "KUP",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "KATANA PAUL KAHINDI",
 		county: "KILIFI",
 		constituency: "KALOLENI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "KAUNYA EDWARD OKU",
 		county: "BUSIA",
 		constituency: "TESO NORTH",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KEMEI JUSTICE KIPSANG",
 		county: "KERICHO",
 		constituency: "SIGOWET/SOIN",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KEMEI BEATRICE CHEPNGENO",
 		county: "KERICHO",
 		constituency: "KERICHO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KEYNAN WEHLIYE ADAN",
 		county: "WAJIR",
 		constituency: "ELDAS",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "KHAMISI MBOKO MISHI JUMA",
 		county: "MOMBASA",
 		constituency: "LIKONI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KHODHE PHELIX ODIWUOR",
 		county: "NAIROBI",
 		constituency: "LANGATA",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KIAMBA SUZANNE NDUNGE",
 		county: "MAKUENI",
 		constituency: "MAKUENI",
 		party: "WDM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KIARAHO DAVID NJUGUNA",
 		county: "NYANDARUA",
 		constituency: "OL KALOU",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "KIBAGENDI ANTONEY",
 		county: "KISII",
 		constituency: "KITUTU CHACHE SOUTH",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KIHARA JAYNE N.W",
 		county: "NAKURU",
 		constituency: "NAIVASHA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KIHUNGI PETER IRUNGU",
 		county: "MURANGA",
 		constituency: "KANGEMA",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KILEL RICHARD CHERUIYOT",
 		county: "BOMET",
 		constituency: "BOMET CENTRAL",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "KIMILU JOSHUA KIVINDA",
 		county: "MAKUENI",
 		constituency: "KAITI",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KING'OLA PATRICK MAKAU",
 		county: "MACHAKOS",
 		constituency: "MAVOKO",
 		party: "WDM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KINGARA  SIMON NGANGA",
 		county: "KIAMBU",
 		constituency: "RUIRU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KIPKOROS JOSEPH MAKILAP",
 		county: "BARINGO",
 		constituency: "BARINGO NORTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KIPLAGAT DAVID",
 		county: "UASIN GISHU",
 		constituency: "SOY",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KIPNGOR REUBEN KIBOREK",
 		county: "BARINGO",
 		constituency: "MOGOTIO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KIPYEGON JOHANA NGENO",
 		county: "NAROK",
 		constituency: "EMURUA DIKIRR",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KIRIMA MOSES NGUCHINE",
 		county: "MERU",
 		constituency: "CENTRAL IMENTI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KIRWA ABRAHAM KIPSANG",
 		county: "NANDI",
 		constituency: "MOSOP",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KITANY MARIANNE",
 		county: "NANDI",
 		constituency: "ALDAI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "KITI RICHARD KEN CHONGA",
 		county: "KILIFI",
 		constituency: "KILIFI SOUTH",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KITUR BERNARD KIBOR",
 		county: "NANDI",
 		constituency: "NANDI HILLS",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KIUNJURI MWANGI FESTUS",
 		county: "LAIKIPIA",
 		constituency: "LAIKIPIA EAST",
 		party: "TSP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KOECH KIPNGETICH VICTOR",
 		county: "BOMET",
 		constituency: "CHEPALUNGU",
 		party: "CCM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KOECH NELSON",
 		county: "KERICHO",
 		constituency: "BELGUT",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KOMBE HARRISON GARAMA",
 		county: "KILIFI",
 		constituency: "MAGARINI",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KOMINGOI KIBET KIRUI",
 		county: "KERICHO",
 		constituency: "BURETI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KORERE SARAH PAULATA",
 		county: "LAIKIPIA",
 		constituency: "LAIKIPIA NORTH",
 		party: "JP",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KORIR ADAMS KIPSANAI",
 		county: "ELGEYO-MARAKWET",
 		constituency: "KEIYO NORTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KOSGEI HILARY KIPLANG'AT",
 		county: "KERICHO",
 		constituency: "KIPKELION WEST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KOYI JOHN WALUKE",
 		county: "BUNGOMA",
 		constituency: "SIRISIA",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KUNO YAKUB ADOW",
 		county: "TANA RIVER",
 		constituency: "BURA",
 		party: "UPIA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KUNO AMINA UDGOON SIYAD",
 		county: "GARISSA",
 		constituency: "GARISSA",
 		party: "JP",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "KURURIA ELIJAH NJORE NJOROGE",
 		county: "KIAMBU",
 		constituency: "GATUNDU NORTH",
 		party: "INDPT",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "LEKUTON JOSEPH",
 		county: "MARSABIT",
 		constituency: "LAISAMIS",
 		party: "UDM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "LELMENGIT JOSSES KIPTOO KOSGEY",
 		county: "NANDI",
 		constituency: "EMGWEN",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "LEMANKEN ARAMAT",
 		county: "NAROK",
 		constituency: "NAROK EAST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "LENGURIS PAULINE",
 		county: "SAMBURU",
 		constituency: "SAMBURU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "LENTOIJONI JACKSON LEKUMONTARE",
 		county: "SAMBURU",
 		constituency: "SAMBURU EAST",
 		party: "KANU",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "LESUUDA NAISULA",
 		county: "SAMBURU",
 		constituency: "SAMBURU WEST",
 		party: "KANU",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "LETIPILA DOMINIC ELI",
 		county: "SAMBURU",
 		constituency: "SAMBURU NORTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "LOCHAKAPONG PETER",
 		county: "WEST POKOT",
 		constituency: "SIGOR",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "LOMWA JOSEPH SAMAL",
 		county: "ISIOLO",
 		constituency: "ISIOLO NORTH",
 		party: "JP",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "LOTEE TITUS",
 		county: "WEST POKOT",
 		constituency: "KACHELIBA",
 		party: "KUP",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "LUYAI CALEB AMISI",
 		county: "TRANS-NZOIA",
 		constituency: "SABOTI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MAALIM FARAH",
 		county: "GARISSA",
 		constituency: "DADAAB",
 		party: "WDM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MACHELE MOHAMED SOUD",
 		county: "MOMBASA",
 		constituency: "MVITA",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MAINA JANE NJERI",
 		county: "KIRINYAGA",
 		constituency: "KIRINYAGA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MAINA BETTY NJERI",
 		county: "MURANG'A",
 		constituency: "MURANG'A",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MAINGI MARY",
 		county: "KIRINYAGA",
 		constituency: "MWEA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MAISORI MARWA KEMERO KITAYAMA",
 		county: "MIGORI",
 		constituency: "KURIA EAST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MAJIMBO KALASINGA",
 		county: "BUNGOMA",
 		constituency: "KABUCHAI",
 		party: "FORD-K",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MAKALI JOHN OKWISIA",
 		county: "BUNGOMA",
 		constituency: "KANDUYI",
 		party: "FORD-K",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MANDUKU DANIEL OGWOKA",
 		county: "KISII",
 		constituency: "NYARIBARI MASABA",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MARUBU MUTHONI MONICAH",
 		county: "LAMU",
 		constituency: "LAMU",
 		party: "INDPT",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MASARA PETER FRANCIS",
 		county: "MIGORI",
 		constituency: "SUNA WEST",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MASITO FATUMA HAMISI",
 		county: "KWALE",
 		constituency: "KWALE",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MATHENGE DUNCAN MAINA",
 		county: "NYERI",
 		constituency: "NYERI TOWN",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MAWATHE JULIUS MUSILI",
 		county: "NAIROBI",
 		constituency: "EMBAKASI SOUTH",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MAYAKA IRENE NYAKERARIO",
 		county: "",
 		constituency: "",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MBAI NIMROD MBITHUKA",
 		county: "KITUI",
 		constituency: "KITUI EAST",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MBALU JESSICA NDUKU KIKO",
 		county: "MAKUENI",
 		constituency: "KIBWEZI EAST",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MBONI DAVID MWALIKA",
 		county: "KITUI",
 		constituency: "KITUI RURAL",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MBUI ROBERT",
 		county: "MACHAKOS",
 		constituency: "KATHIANI",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MELI JULIUS KIPBIRWOT",
 		county: "NANDI",
 		constituency: "TINDERET",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MIZIGHI LYDIA HAIKA",
 		county: "TAITA TAVETA",
 		constituency: "TAITA TAVETA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MNYAZI AMINA LAURA",
 		county: "KILIFI",
 		constituency: "MALINDI",
 		party: "ODM",
-		attendance: "SUSPENDED",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "SUSPENDED",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MOGAKA STEPHEN",
 		county: "NYAMIRA",
 		constituency: "WEST MUGIRANGO",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MOHAMED ABDIKADIR HUSSEIN",
 		county: "GARISSA",
 		constituency: "LAGDERA",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MOHAMED ADEN DAUDI",
 		county: "WAJIR",
 		constituency: "WAJIR EAST",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MOHAMED MOHAMED ALI",
 		county: "MOMBASA",
 		constituency: "NYALI",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MOHAMED UMULKHER HARUN",
 		county: "",
 		constituency: "",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MOHAMMED FATUMA ZAINAB",
 		county: "MIGORI",
 		constituency: "MIGORI",
 		party: "INDPT",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MOHAMMED ZAMZAM CHIMBA",
 		county: "MOMBASA",
 		constituency: "MOMBASA",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MOMANYI JERUSHA MONGINA",
 		county: "NYAMIRA",
 		constituency: "NYAMIRA",
 		party: "JP",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MREMBO IRENE NJOKI",
 		county: "NAKURU",
 		constituency: "BAHATI",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MUCHIRA MICHAEL MWANGI",
 		county: "NYANDARUA",
 		constituency: "OL JOROK",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MUGABE INNOCENT MAINO",
 		county: "KAKAMEGA",
 		constituency: "LIKUYANI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MUGE CYNTHIA JEPKOSGEI",
 		county: "NANDI",
 		constituency: "NANDI",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MUHANDA ELSIE BUSIHILE",
 		county: "KAKAMEGA",
 		constituency: "KAKAMEGA",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MUHIA WANJIKU",
 		county: "NYANDARUA",
 		constituency: "KIPIPIRI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MUKHWANA TITUS KHAMALA",
 		county: "KAKAMEGA",
 		constituency: "LURAMBI",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MUKUNJI JOHN GITONGA MWANIKI",
 		county: "EMBU",
 		constituency: "MANYATTA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MULANYA EKESA GEOFFREY",
 		county: "BUSIA",
 		constituency: "NAMBALE",
 		party: "INDPT",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MULE CALEB MUTISO",
 		county: "MACHAKOS",
 		constituency: "MACHAKOS TOWN",
 		party: "MCCP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MULE STEPHEN MUTINDA",
 		county: "MACHAKOS",
 		constituency: "MATUNGULU",
 		party: "WDM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MULI FABIAN KYULE",
 		county: "MACHAKOS",
 		constituency: "KANGUNDO",
 		party: "GDDP",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MULU MAKALI",
 		county: "KITUI",
 		constituency: "KITUI CENTRAL",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MULYUNGI GIDEON MUTEMI",
 		county: "MWINGI",
 		constituency: "MWINGI CENTRAL",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MUMO ROSE MUSEO",
 		county: "MAKUENI",
 		constituency: "MAKUENI",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MUNYORO JOSEPH KAMAU",
 		county: "MURANG'A",
 		constituency: "KIGUMO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MUPE ANTHONY KENGA",
 		county: "KILIFI",
 		constituency: "RABAI",
 		party: "PAA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MURATHA ANNE WANJIKU MUGO",
 		county: "KIAMBU",
 		constituency: "KIAMBU",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MURIU WAKILI EDWARD",
 		county: "MURANG'A",
 		constituency: "GATANGA",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MURIUKI NEBART BERNARD",
 		county: "EMBU",
 		constituency: "MBEERE SOUTH",
 		party: "INDPT",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MURUGARA GEORGE GITONGA",
 		county: "THARAKA-NITHI",
 		constituency: "THARAKA",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MUSAU VINCENT MUSYOKA",
 		county: "MACHAKOS",
 		constituency: "MWALA",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MUTAI KIPRONOH ALFRED",
 		county: "NAKURU",
 		constituency: "KURESOI NORTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MUTHAMA STANLEY MUIRURI",
 		county: "LAMU",
 		constituency: "LAMU WEST",
 		party: "JP",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MUTUA DIDMUS WEKESA BARASA",
 		county: "BUNGOMA",
 		constituency: "KIMILILI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MUTUNGA JOHN KANYUITHIA",
 		county: "MERU",
 		constituency: "TIGANIA WEST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MUTUSE ECKOMAS MWENGI",
 		county: "MAKUENI",
 		constituency: "KIBWEZI WEST",
 		party: "MCCP",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MWAFRIKA AUGUSTINE KAMANDE",
 		county: "NAIROBI",
 		constituency: "ROYSAMBU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MWAGO AMOS MAINA",
 		county: "NAIROBI",
 		constituency: "STAREHE",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MWAKUWONA DANSON MWASHAKO",
 		county: "TAITA TAVETA",
 		constituency: "WUNDANYI",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "MWALE NICHOLAS SCOTT TINDI",
 		county: "KAKAMEGA",
 		constituency: "BUTERE",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MWALYO JOSHUA MBITHI",
 		county: "MACHAKOS",
 		constituency: "MASINGA",
 		party: "INDPT",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MWANGI GEOFFREY WANDETO",
 		county: "NYERI",
 		constituency: "TETU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MWANGI TERESIA WANJIRU",
 		county: "",
 		constituency: "",
 		party: "",
-		attendance: "PRESENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MWANYANJE GERTRUDE MBEYU",
 		county: "KILIFI",
 		constituency: "KILIFI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "MWENJE MARK SAMUEL MURIITHI",
 		county: "NAIROBI",
 		constituency: "EMBAKASI WEST",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MWIRIGI JOHN PAUL",
 		county: "MERU",
 		constituency: "IGEMBE SOUTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "NABII NABWERA DARAJA",
 		county: "KAKAMEGA",
 		constituency: "LUGARI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "NABULINDO PETER OSCAR",
 		county: "KAKAMEGA",
 		constituency: "MATUNGU",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "NAICCA JOHNSON MANYA",
 		county: "KAKAMEGA",
 		constituency: "MUMIAS WEST",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NAMUAR JOSEPH EMATHE",
 		county: "TURKANA",
 		constituency: "TURKANA CENTRAL",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NANOK DANIEL EPUYO",
 		county: "TURKANA",
 		constituency: "TURKANA WEST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NDUNG'U GEORGE KOIMBURI",
 		county: "KIAMBU",
 		constituency: "JUJA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NDUYO SUSAN NGUGI",
 		county: "THARAKA-NITHI",
 		constituency: "THARAKA-NITHI",
 		party: "TSP",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NGANGA ALICE WAMBUI",
 		county: "KIAMBU",
 		constituency: "THIKA TOWN",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NGIKOLONG NICHOLAS NGIKOR NIXON",
 		county: "TURKANA",
 		constituency: "TURKANA EAST",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: null,
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NGITIT CECILIA ASINYEN",
 		county: "TURKANA",
 		constituency: "TURKANA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "NGUNA NGUSYA CHARLES",
 		county: "KITUI",
 		constituency: "MWINGI WEST",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NGURO ONESMUS NGOGOYO",
 		county: "KAJIADO",
 		constituency: "KAJIADO NORTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NG'ELECHEI CAROLINE JEPTOO",
 		county: "ELGEYO-MARAKWET",
 		constituency: "ELGEYO-MARAKWET",
 		party: "INDPT",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "NG'ONGO JOHN MBADI",
 		county: "",
 		constituency: "",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "NJERU PAMELA NJOKI",
 		county: "EMBU",
 		constituency: "EMBU",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: null,
+				attendance: null,
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "NJOROGE MARY WAMAUA WAITHIRA",
 		county: "MURANG'A",
 		constituency: "MARAGWA",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NTUTU KITILAI OLE",
 		county: "NAROK",
 		constituency: "NAROK SOUTH",
 		party: "INDPT",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NTWIGA PATRICK MUNENE",
 		county: "THARAKA-NITHI",
 		constituency: "CHUKA/IGAMBANG'OMBE",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NYAKUNDI JAPHETH MOKAYA",
 		county: "KISII",
 		constituency: "KITUTU CHACHE NORTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NYAMAI RACHAEL KAKI",
 		county: "KITUI",
 		constituency: "KITUI SOUTH",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "NYAMITA MARK OGOLLA",
 		county: "MIGORI",
 		constituency: "URIRI",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NYAMOKO JOASH NYAMACHE",
 		county: "NYAMIRA",
 		constituency: "NORTH MUGIRANGO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "NYENZE EDITH VETHI",
 		county: "KITUI",
 		constituency: "KITUI WEST",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "NYIKAL WAMBURA JAMES",
 		county: "KISUMU",
 		constituency: "SEME",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "NYORO SAMSON NDINDI",
 		county: "MURANG'A",
 		constituency: "KIHARU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "NZENGU PAUL MUSYIMI",
 		county: "MWINGI",
 		constituency: "MWINGI NORTH",
 		party: "WDM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "NZIOKA ERASTUS KIVASU",
 		county: "MAKUENI",
 		constituency: "MBOONI",
 		party: "WDM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OBARA EVE AKINYI",
 		county: "HOMA BAY",
 		constituency: "KABONDO KASIPUL",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OBIRI INNOCENT MOMANYI",
 		county: "KISII",
 		constituency: "BOBASI",
 		party: "WDM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OBO RUWEIDA MOHAMED",
 		county: "LAMU",
 		constituency: "LAMU EAST",
 		party: "JP",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "OCHIENG DAVID OUMA",
 		county: "SIAYA",
 		constituency: "UGENYA",
 		party: "MDG",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "ODANGA GEOFFREY MAKOKHA",
 		county: "BUSIA",
 		constituency: "MATAYOS",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "ODEGE TOM MBOYA",
 		county: "MIGORI",
 		constituency: "NYATIKE",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ODHIAMBO ELISHA OCHIENG",
 		county: "SIAYA",
 		constituency: "GEM",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "ODHIAMBO MILLIE GRACE AKOTH",
 		county: "HOMA BAY",
 		constituency: "SUBA NORTH",
 		party: "",
-		attendance: "SUSPENDED",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "SUSPENDED",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OGOLLA. GIDEON OCHANDA",
 		county: "SIAYA",
 		constituency: "BONDO",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OKELO JARED ODOYO",
 		county: "KISUMU",
 		constituency: "NYANDO",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OKUOME ADIPO ANDREW",
 		county: "HOMA BAY",
 		constituency: "KARACHUONYO",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OLUOCH ANTHONY TOM",
 		county: "NAIROBI",
 		constituency: "MATHARE",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OMANYO CATHERINE NAKHABI",
 		county: "BUSIA",
 		constituency: "BUSIA",
 		party: "ODM",
-		attendance: "SUSPENDED",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "SUSPENDED",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OMBAKA ODUOR CHRISTINE",
 		county: "SIAYA",
 		constituency: "SIAYA",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OMBOKO MILEMBA",
 		county: "VIHIGA",
 		constituency: "EMUHAYA",
 		party: "",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "OMONDI CAROLI",
 		county: "HOMA BAY",
 		constituency: "SUBA SOUTH",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OMWERA GEORGE ALDWA",
 		county: "NAIROBI",
 		constituency: "MAKADARA",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "ONCHOKE CHARLES MAMWACHA",
 		county: "KISII",
 		constituency: "BONCHARI",
 		party: "UPA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: null,
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ONYIEGO SILVANUS OSORO",
 		county: "KISII",
 		constituency: "SOUTH MUGIRANGO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "ORERO PETER OCHIENG",
 		county: "NAIROBI",
 		constituency: "KIBRA",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "ORON JOSHUA ODONGO",
 		county: "KISUMU",
 		constituency: "KISUMU CENTRAL",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OSERO PATRICK",
 		county: "NYAMIRA",
 		constituency: "BORABU",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OSOGO JOYCE ATIENO BENSUDA",
 		county: "HOMA BAY",
 		constituency: "HOMA BAY",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "OTUCHO MARY EMAASE",
 		county: "BUSIA",
 		constituency: "TESO SOUTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OUNDO WILBERFORCE OJIAMBO",
 		county: "BUSIA",
 		constituency: "FUNYULA",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OWINO JOHN WALTER",
 		county: "MIGORI",
 		constituency: "AWENDO",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OWINO MARTIN PETERS",
 		county: "HOMA BAY",
 		constituency: "NDHIWA",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OWUOR JOSHUA ADUMA",
 		county: "KISUMU",
 		constituency: "NYAKACH",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OYOO JAMES ONYANGO",
 		county: "KISUMU",
 		constituency: "MUHORONI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "OYUGI DICK MAUNGU",
 		county: "VIHIGA",
 		constituency: "LUANDA",
 		party: "DAP-K",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "OYULA JOSEPH H. MAERO",
 		county: "BUNGOMA",
 		constituency: "BUTULA",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "PARASHINA SAMUEL SAKIMBA",
 		county: "KAJIADO",
 		constituency: "KAJIADO SOUTH",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "PAREYIO MANTAINE AGNES",
 		county: "NAROK",
 		constituency: "NAROK NORTH",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "PASSARIS ESTHER MUTHONI",
 		county: "NAIROBI",
 		constituency: "NAIROBI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "PKOSING DAVID",
 		county: "POKOT",
 		constituency: "POKOT SOUTH",
 		party: "KUP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "RAI SAMUEL GONZI",
 		county: "KWALE",
 		constituency: "KINANGO",
 		party: "PAA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "RASSO  DIDO ALI",
 		county: "MARSABIT",
 		constituency: "SAKU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "ROBI MATHIAS NYAMABE",
 		county: "MIGORI",
 		constituency: "KURIA WEST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "RUKU GEOFFREY KIRINGA",
 		county: "EMBU",
 		constituency: "MBEERE NORTH",
 		party: "DP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "SALASYA PETER KALERWA",
 		county: "KAKAMEGA",
 		constituency: "MUMIAS EAST",
 		party: "DAP-K",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SALIM FEISAL ABDALLAH BADER",
 		county: "KWALE",
 		constituency: "MSAMBWENI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "SANEY IBRAHIM ADBI",
 		county: "WAJIR",
 		constituency: "WAJIR NORTH",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: null,
+				attendance: null,
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SANKAIRE LEAH SOPIATO",
 		county: "KAJIADO",
 		constituency: "KAJIADO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SERGON JEMATIAH FLOWRENCE",
 		county: "BARINGO",
 		constituency: "BARINGO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "SHAKE MBOGHO PETER",
 		county: "TAITA TAVETA",
 		constituency: "MWATATE",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SHEIKH UMUL KER KASSIM",
 		county: "MANDERA",
 		constituency: "MANDERA",
 		party: "UDM",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "SHIMBWA OMAR MWINYI",
 		county: "MOMBASA",
 		constituency: "CHANGAMWE",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "SHINALI BERNARD MASAKA",
 		county: "KAKAMEGA",
 		constituency: "IKOLOMANI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "SHURIE ABDI OMAR",
 		county: "GARISSA",
 		constituency: "BALAMBALA",
 		party: "JP",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SIGEI FRANCIS KIPYEGON ARAP",
 		county: "BOMET",
 		constituency: "SOTIK",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SIRMA MUSA CHERUTICH",
 		county: "BARINGO",
 		constituency: "ELDAMA RAVINE",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SITATI DANIEL WANYAMA",
 		county: "BUNGOMA",
 		constituency: "WEBUYE WEST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SITIENEI JANET JEPKEMBOI",
 		county: "UASIN GISHU",
 		constituency: "TURBO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SIYOI LILLIAN CHEBET",
 		county: "TRANS-NZOIA",
 		constituency: "TRANS-NZOIA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SLOYA CLEMENT LOGOVA",
 		county: "VIHIGA",
 		constituency: "SABATIA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "SUDI OSCAR KIPCHUMBA",
 		county: "UASIN GISHU",
 		constituency: "KAPSERET",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "SULEKA HULBALE HARUN",
 		county: "",
 		constituency: "",
 		party: "UDM",
-		attendance: "PRESENT",
 		category: "NOMINATED",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "SUNKUIYA  GEORGE RISA",
 		county: "KAJIADO",
 		constituency: "KAJIADO WEST",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "SUNKULI JULIUS LEKAKENY",
 		county: "NAROK",
 		constituency: "KILGORIS",
 		party: "KANU",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "TAITAMU JULIUS M�NAIBA",
 		county: "MERU",
 		constituency: "IGEMBE NORTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "TANDAZA KASSIM SAWA",
 		county: "KWALE",
 		constituency: "MATUGA",
 		party: "ANC",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "THUKU ZACHARY KWENYA",
 		county: "NYANDARUA",
 		constituency: "KINANGOP",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "TONGOYO GABRIEL KOSHAL",
 		county: "NAROK",
 		constituency: "NAROK WEST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "TONKEI REBECCA NOONAISHI",
 		county: "NAROK",
 		constituency: "NAROK",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "TONUI JOSEPH KIPKOSGEI",
 		county: "NAKURU",
 		constituency: "KURESOI SOUTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "TOROITICH TIMOTHY KIPCHUMBA",
 		county: "ELGEYO-MARAKWET",
 		constituency: "MARAKWET WEST",
 		party: "INDPT",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "TUNGULE CHARO KENNETH KAZUNGU",
 		county: "KILIFI",
 		constituency: "GANZE",
 		party: "PAA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WACHIRA  RAHAB MUKAMI",
 		county: "NYERI",
 		constituency: "NYERI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WAINAINA ANTHONY NJOROGE",
 		county: "NYERI",
 		constituency: "KIENI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WAINAINA MICHAEL WAMBUGU",
 		county: "NYERI",
 		constituency: "OTHAYA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WAITHAKA JOHN MACHUA",
 		county: "KIAMBU",
 		constituency: "KIAMBU",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WAMACUKURU JAMES GITHUA KAMAU",
 		county: "KIAMBU",
 		constituency: "KABETE",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "WAMBILIANGA CATHERINE NANJALA",
 		county: "BUNGOMA",
 		constituency: "BUNGOMA",
 		party: "FORD-K",
-		attendance: "ABSENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "WAMBOKA WANAMI JACK NELSON",
 		county: "BUNGOMA",
 		constituency: "BUMULA",
 		party: "DAP-K",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "WAMUCHOMBA  GATHONI",
 		county: "KIAMBU",
 		constituency: "GITHUNGURI",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "WANDAYI JAMES OPIYO",
 		county: "SIAYA",
 		constituency: "UGUNJA",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "WANGAYA CHRISTOPHER ASEKA",
 		county: "KAKAMEGA",
 		constituency: "KHWISERO",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "WANGWE EMMANUEL",
 		county: "KAKAMEGA",
 		constituency: "NAVAKHOLO",
 		party: "ODM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "WANJALA RAPHAEL BITTA SAUTI",
 		county: "BUSIA",
 		constituency: "BUDALANGI",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WANJIKU JOHN NJUGUNA",
 		county: "KIAMBU",
 		constituency: "KIAMBAA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WANJIRA MARTHA WANGARI",
 		county: "NAKURU",
 		constituency: "GILGIL",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WANYONYI KEVIN FERDINAND",
 		county: "TRANS-NZOIA",
 		constituency: "KWANZA",
 		party: "FORD-K",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WANYONYI MARTIN PEPELA",
 		county: "BUNGOMA",
 		constituency: "WEBUYE EAST",
 		party: "FORD-K",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WAQO NAOMI JILLO",
 		county: "MARSABIT",
 		constituency: "MARSABIT",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "WOMAN REP",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "WAWERU JOHN KIARIE",
 		county: "NAIROBI",
 		constituency: "DAGORETTI SOUTH",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "WERE CHARLES ONG'ONDO",
 		county: "HOMA BAY",
 		constituency: "KASIPUL",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 0,
 		name: "WETANGULA TIMOTHY WANYONYI",
 		county: "NAIROBI",
 		constituency: "WESTLANDS",
 		party: "ODM",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 0,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "YEGON BRIGHTON LEONARD",
 		county: "BOMET",
 		constituency: "KONOIN",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "YEGON RICHARD KIPKEMOI",
 		county: "BOMET",
 		constituency: "BOMET EAST",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "YUSSUF ADAN HAJI",
 		county: "MANDERA",
 		constituency: "MANDERA WEST",
 		party: "UDM",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KIMANI FRANCIS KURIA",
 		county: "NAKURU",
 		constituency: "MOLO",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "KARITHO KIILI DANIEL",
 		county: "MERU",
 		constituency: "IGEMBE CENTRAL",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "MBIUKI JAPHET MIRITI KAREKE",
 		county: "THARAKA-NITHI",
 		constituency: "MAARA",
 		party: "UDA",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: 1,
 		name: "RINDIKIRI MUGAMBI MURWITHANIA",
 		county: "MERU",
 		constituency: "BUURI",
 		party: "JP",
-		attendance: "PRESENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 	{
-		2023: null,
 		name: "BARRAW DEKOW MOHAMED",
 		county: "GARISSA",
 		constituency: "GARISSA TOWNSHIP",
 		party: "UDA",
-		attendance: "ABSENT",
 		category: "CONSTITUENCY",
+		votes: {
+			2023: {
+				vote: null,
+				attendance: "ABSENT",
+			},
+			2024: {
+				vote: 1,
+				attendance: "PRESENT",
+			},
+		},
 	},
 ];
 export default mpArray;
