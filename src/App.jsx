@@ -6,6 +6,7 @@ import mpArray from "./mps";
 import FormDropdown from "./FormDropdown";
 import FormText from "./FormText";
 import MyFooter from "./MyFooter";
+import YearToggle from "./YearToggle";
 
 const App = () => {
 	const [showFilters, setShowFilters] = useState(window.innerWidth > 768);
@@ -126,6 +127,8 @@ const App = () => {
 				<h1 className="mb-5 font-sans text-2xl text-white md:text-3xl">
 					Kenya Kwanza Finance Bills
 				</h1>
+				{/* toggle year switch */}
+				{!showFilters && <YearToggle setYear={setYear} />}
 
 				<form className="grid w-full grid-cols-1 gap-y-4 md:grid-cols-8 md:items-end md:gap-2">
 					{/* mp name */}
@@ -142,6 +145,7 @@ const App = () => {
 						<div className="grid grid-cols-1 gap-3 md:col-start-3 md:col-end-9 md:grid-cols-6 md:gap-2">
 							{/* year */}
 							<FormDropdown
+								className="hidden md:inline-block"
 								label="year"
 								options={["2023", "2024"]}
 								value={year}

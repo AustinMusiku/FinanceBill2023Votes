@@ -45,7 +45,7 @@ const MpsList = ({ mps, year }) => {
 						<p className="hidden basis-1/4 text-center text-sm font-bold md:inline-block">
 							Attendance
 						</p>
-						<p className="text-righ basis-1/12 text-center text-sm font-bold">
+						<p className="basis-1/12 text-right text-sm font-bold md:text-center">
 							Vote
 						</p>
 					</div>
